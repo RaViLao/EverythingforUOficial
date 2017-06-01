@@ -1,0 +1,53 @@
+#contenedor {
+	background: url(http://2.bp.blogspot.com/-M9NuestmHJ0/UxzOycePZeI/AAAAAAAAGIs/_McXAkCVKcs/s1600/Ciclorama-copia.JPG);
+}
+
+#contra {
+	font-size: 34px;
+}
+#miniconten {
+    margin: auto;
+    width: 45%;
+    min-height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#miniconten > ul > li {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 10spx;
+    margin: 5px;
+    font-size: 30px;
+}
+
+#miniconten > h1 {
+    padding-left: 0px;
+}
+
+#medio {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+ul {
+	background: url(http://www.datafactory.la/wp-content/themes/datafactory/images/fondo_radial.jpg);
+	padding-bottom:20px;
+	border-radius: 10px;
+    border: 1px solid darkgrey;
+}
+#boton {
+    float: right;
+    background-color: #1E90FF;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+	margin-right: 45px;
+}
+
+#medio > li > a {
+    font-size: 18px;
+    margin-left: 65px;
+}
+

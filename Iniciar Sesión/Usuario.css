@@ -1,0 +1,43 @@
+#contenedor {
+	background: url(http://2.bp.blogspot.com/-M9NuestmHJ0/UxzOycePZeI/AAAAAAAAGIs/_McXAkCVKcs/s1600/Ciclorama-copia.JPG);
+}
+
+#miniconten {
+	width: 40%;
+	margin: auto;
+	padding: 30px;
+    font-size: 25px;
+}
+
+#miniconten > #correo {
+    width: 350px; 
+    height: 35px; 
+    margin-left: 30px; 
+    border: none; 
+    font-size: 50px;
+}
+#boton {
+    margin-left: 35%;
+    background-color: #1E90FF;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#medio {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ul {
+	background: url(https://images-na.ssl-images-amazon.com/images/I/71p5%2B77TRzL._SL1001_.jpg);
+}
+
+li {
+	list-style-type: none;
+}
+h1 {
+	 text-align: center;
+	 padding: 10px;
+}
