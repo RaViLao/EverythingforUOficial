@@ -1,0 +1,45 @@
+body * {
+}
+
+#miniconten {
+    margin: auto;
+    width: 45%;
+    min-height: 400px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#contenedor {
+    background: url(https://ae01.alicdn.com/kf/HTB18yb5JVXXXXbjXXXXq6xXFXXXh/Photo-Backdrops-Children-Vinyl-Photo-Props-for-Studio-font-b-Photography-b-font-font-b-Background.jpg);
+}
+#miniconten > h1 {
+    text-align: center;
+}
+
+#miniconten > ul {
+    background: #ffffff;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+
+#miniconten > ul > li {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+#boton {
+    margin-left: 35%;
+    background-color: #1E90FF;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,60 +1,60 @@
-body *{
+body {
     font-family: Arial;
-	border: 1px solid red;
-}
-#IzqP{
-	float : left;
-	width: 70%;
-
-	
-}
-#IzqLogo{
-	float:left;
-	width:30%;
-	b
-	text-align:center;
-}
-h1{
-	margin:0;
-	padding:0;
-	font-size:50px;
-
-}
-#IzqName{
-margin-top:20px;
-	margin-left:30%;
-	
-	text-align:center;
-	font-family:fantasy;
 }
 
-#DerP{
-	margin-left:70%;
-	
+#IzqP {
+    float: left;
+    width: 70%;
 }
-h2{
-	color:white;
-	font-size: 10px
+
+#IzqLogo {
+    float: left;
+    width: 30%;
+    text-align:center;
 }
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+#IzqName {
+    margin-top: 20px;
+    margin-left: 30%;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#DerP {
+    margin-left: 70%;
+}
+
+h2 {
+    color: white;
+    font-size: 10px
+}
+
 .limitar {
     clear: both;
-	height:0;
-	
+    height: 0;
 }
-#limitar{
-	clear:both;
-height:0;
-}
-#log{
-display:block;
-width: 55%;
-margin:auto;
-border:1px solid yellow;
 
+#limitar {
+    clear: both;
+    height: 0;
 }
+
+#log {
+    display: block;
+    width: 55%;
+    margin: auto;
+    border: 1px solid yellow;
+}
+
 #contenedor {
-    
 }
+
 #contenedor > header#Cabecera {
     background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
     height: 100px;
@@ -62,20 +62,22 @@ border:1px solid yellow;
     color: chocolate;
     font-size: 60px;
     padding: 5px;
-	
 }
+
 #contenedor > header > img {
     float: left;
     width: 90px;
     margin: 3px 140px 3px 140px;
     height: 105px;
 }
+
 #contenedor > footer {
     text-align: center;
     background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
     min-height: 45px;
     padding-top: 20px;
 }
+
 #contenedor > footer > a {
     font-size: 14px;
     color: white;
