@@ -1,0 +1,249 @@
+
+#nav{
+	
+padding:10px;
+	
+text-align: center;
+}
+
+
+
+#nav a{
+	
+text-decoration: none;
+	
+font-size: 20px;
+
+
+}
+
+
+
+#form{
+
+width: 40%;
+
+margin:auto;
+
+border: 3px solid blue;
+
+	padding: 20px;
+
+	background: #b3bead;
+ 
+background: -moz-linear-gradient(top, #b3bead 0%, #dfe5d7 68%, #fcfff4 100%); 
+
+background: -webkit-linear-gradient(top, #b3bead 0%,#dfe5d7 68%,#fcfff4 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom, #b3bead 0%,#dfe5d7 68%,#fcfff4 100%);
+    
+border-radius: 50px;
+
+}
+
+#perfil{
+	
+text-align:center;
+	
+background: #b7deed; /* Old browsers */
+
+background: -moz-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%);
+
+border-radius: 50px;
+
+}
+
+#perfil img{
+	
+width: 25%;
+
+}
+
+
+
+#datos{
+    
+font-weight: bold;
+    
+margin-top: 30px;
+    
+border-radius:50px;
+    
+padding: 30px;
+    
+background: #a7cfdf; /* Old browsers */
+
+background: -moz-radial-gradient(center, ellipse cover, #a7cfdf 0%, #23538a 100%); /* FF3.6-15 */
+
+background: -webkit-radial-gradient(center, ellipse cover, #a7cfdf 0%,#23538a 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: radial-gradient(ellipse at center, #a7cfdf 0%,#23538a 100%);
+
+}
+#cont{
+    
+background: #ffffff; /* Old browsers */
+
+background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 50%, #f6f6f6 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 50%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 50%,#e1e1e1 50%,#f6f6f6 100%);
+
+}
+
+
+
+
+body {
+    
+font-family: Arial;
+
+
+}
+
+#IzqP{
+
+float : left;
+	
+width: 70%;
+
+	
+
+}
+
+#IzqLogo{
+	
+float:left;
+	
+width:30%;
+		
+text-align:center;
+
+}
+
+h1{
+	
+margin:0;
+	
+padding:0;
+	
+font-size:50px;
+
+
+}
+
+#IzqName{
+
+margin-top:20px;
+	
+margin-left:30%;
+	
+	
+text-align:center;
+	
+font-family:fantasy;
+
+}
+
+#DerP{
+	
+margin-left:70%;
+	
+
+}
+
+h2{
+	
+color:white;
+	
+font-size: 10px
+
+}
+
+
+.limitar {
+    
+clear: both;
+	
+height:0;
+	
+
+}
+
+#limitar{
+	
+clear:both;
+
+height:0;
+
+}
+
+#log{
+
+display:block;
+
+width: 55%;
+
+margin:auto;
+
+border:1px solid yellow;
+
+
+}
+
+#contenedor {
+ 
+   
+}
+
+#contenedor > header#Cabecera {
+    
+background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
+    
+height: 100px;
+    
+font-family: Calibri;
+    
+color: chocolate;
+    
+font-size: 60px;
+    
+padding: 5px;
+	
+
+}
+
+#contenedor > header > img {
+    
+float: left;
+    
+width: 90px;
+    
+margin: 3px 140px 3px 140px;
+    
+height: 105px;
+}
+#contenedor > footer {
+    
+text-align: center;
+    
+background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
+    
+min-height: 45px;
+    
+padding-top: 20px;
+
+}
+
+#contenedor > footer > a {
+    
+font-size: 14px;
+    
+color: white;
+
+}
