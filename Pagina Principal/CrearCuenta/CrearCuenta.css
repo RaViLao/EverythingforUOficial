@@ -1,9 +1,14 @@
 body * {
 }
 
+#izq {
+    float: left;
+    width: 40%;
+}
+
 #miniconten {
-    margin: auto;
-    width: 45%;
+    float: right;
+    width: 60%;
     min-height: 400px;
     margin-bottom: 4px;
     margin-top: 4px;
