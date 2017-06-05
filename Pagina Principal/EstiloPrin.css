@@ -3,70 +3,7 @@ body {
 	background-color: #f4f7e6;
 }
 
-#IzqP{
-	float : left;
-	width: 70%;	
-}
-a{
-	text-decoration: none;
-	color:black;	
-}
-
-#IzqLogo{
-	float:left;
-	width:30%;
-	b
-	text-align:center;
-}
-
-h1{
-	
-	margin:0;
-	padding:0;
-	font-size:50px;
-}
-
-#IzqName{
-margin-top:20px;
-	margin-left:30%;
-	
-	text-align:center;
-	font-family:fantasy;
-}
-
-#DerP{
-	margin-left:70%;
-	
-}
-h2{
-	color:white;
-	font-size: 10px
-}
-
-.textAr{
-	position: relative;
-	top:-60px;
-	padding:10px 0	
-}
-
-.limitar {
-    clear: both;
-	height:0;
-	
-}
-
-
-
-#log{
-display:block;
-width: 55%;
-margin:auto;
-border:1px solid yellow;
-}
-#logB {
-	width:20px;
-    
-}
+/*Header Principal y footer*/
 #contenedor > header#Cabecera {
     background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
     height: 100px;
@@ -75,15 +12,63 @@ border:1px solid yellow;
     font-size: 60px;
     padding: 5px;	
 }
-
-#destacado{
-    float: left;
-    width: 20%;
-    border-right:2px solid #082451;
+/*Seccion del header*/
+#IzqP{
+	float : left;
+	width: 70%;	
+}
+#IzqName{
+margin-top:20px;
+	margin-left:30%;
+	
+	text-align:center;
+	font-family:fantasy;
+}
+#DerP{
+	margin-left:70%;	
+}
+/*Añadiendo valores al header*/
+h1{	
+	margin:0;
+	padding:0;
+	font-size:50px;
+}
+#log{
+	display:block;
+	width: 55%;
+	margin:auto;
+	border:1px solid yellow;
+}
+#IzqLogo{
+	float:left;
+	width:30%;
+	b
+	text-align:center;
+}
+#contenedor > footer {
+    text-align: center;
+    background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
+    min-height: 45px;
+    padding-top: 20px;
+}
+#contenedor > footer > a {
+    font-size: 14px;
+    color: white;
 }
 
+
+/* Aquí mandamos a flotar al Contenido Principal, el cual contiene una seccion de buscador
+tambien tiene una seccion de Categorias*/
 #ContenidoPr{
-    margin-left:20%;
+float:left;
+width:80%;
+}
+/*SEccion Buscar*/
+#buscador{
+	border-radius: 15px;
+	width: 70%;
+	height:30px;
+	font-size: 20px;
 }
 
 #Busqueda{
@@ -91,26 +76,10 @@ border:1px solid yellow;
     padding:20px;
 
 }
-#buscador{
-	border-radius: 15px;
-	width: 70%;
-	height:30px;
-	font-size: 20px;
+#logB {
+	width:20px;    
 }
-ol > li{
-	list-style-image: url('vigneta.gif');
-}
-
-.name{
-	font-size: 25px;
-}
-.loel{
-	width: 20px;
-}
-.elemento{
-	background-color: #f0f2d7;
-}
-
+/*Seccion Categoria*/
 #Categorias h4{
 
 	background-color: #edab07;
@@ -136,15 +105,15 @@ ol > li{
 }
 .Categoria  > section.izquierda{
 	float:left;
-	width:33.3%;
+	width:30%;
 }
 .Categoria > section.derecha{
 	float:right;
-	width:33.3%;
+	width:30%
 }
 .Categoria > section.centro{
-	margin-left:33.3%;
-	margin-right:33.3%;
+	margin-left:35%;
+	margin-right:35%;
 }
 .Categoria{
 	float:right;
@@ -172,17 +141,47 @@ ol > li{
 	left:15px;
 }
 
+.textAr{
+	position: relative;
+	top:-60px;
+	padding:10px 0	
+}
 
-#contenedor > footer {
-    text-align: center;
-    background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
-    min-height: 45px;
-    padding-top: 20px;
-}
-#contenedor > footer > a {
-    font-size: 14px;
-    color: white;
-}
+
 #linea{
 	border-top: 2px solid #211801;
 }
+
+
+/*Seccion Destacado*/
+#destacado{
+	margin-left:80%;
+    border-left:2px solid #082451;
+}
+ol > li{
+	list-style-image: url('vigneta.gif');
+}
+
+.limitar {
+    clear: both;
+	height:0;
+	
+}
+a{
+	text-decoration: none;
+	color:black;	
+}
+h2{
+	color:white;
+	font-size: 10px
+}
+.name{
+	font-size: 25px;
+}
+.loel{
+	width: 20px;
+}
+.elemento{
+	background-color: #f0f2d7;
+}
+
