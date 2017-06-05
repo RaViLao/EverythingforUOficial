@@ -63,12 +63,12 @@ body *  {
 
 #todo{
     border-radius: 15px;
-    margin-left:25%;
-    margin-right:25%;
+    width: 600px;
     background-color: #DFDFDF;
     padding-top:15px;
     padding-bottom: 10px;
 }
+
 
 
 h2{
@@ -84,7 +84,7 @@ h2{
     margin-bottom: 10px;
     background-color: #f7f7f7;
     padding-top:  20px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 10px;
@@ -94,26 +94,24 @@ h2{
     width: 100%;
 	height:36px;
 	border-radius: 5px;
+
 	}
 #submit{
     width: 100%;
 	background-color:#4d90fe;
 	height:36px;
 	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 20px;
 }
 
 #titulo1{
-	width:706px;
+
 	height:36px;
 	text-align:center;
 }
-#titulo2{
-	width:706px;
-	height:37px;
-	text-align:center;
-}
+
 #para{
-	width:706px;
 	height:36px;
 	text-align:center;
 }
@@ -129,6 +127,7 @@ h2{
 }
 #ima2{
     margin-left: 40%;
+    border: 2px solid red;
 }
 #parra{
     clear: both;
