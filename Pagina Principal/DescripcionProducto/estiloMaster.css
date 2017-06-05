@@ -2,14 +2,7 @@ body{
     font-family: Arial;
 	margin:0 0 0 0 ;
 }
-#content {
-    margin-left: 250px;
-    margin-top: 10px;
-}
-#imgArticulo{
-    margin: 10px 30px 10px 30px;
-    float: left;
-}
+
 #empty{
     clear: both;
 }
@@ -71,4 +64,20 @@ body{
 }
 #botonCarr{
     margin-left: 50%;
+}
+
+#izq{
+    float: left;
+    width: 20%;
+}
+#der {
+    float: right;
+    width: 50%;
+}
+#centro{
+    margin-left: 20%;
+    margin-right: 50%;
+}
+#barras{
+    margin-top: 10px;
 }
