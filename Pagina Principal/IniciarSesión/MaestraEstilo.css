@@ -52,9 +52,6 @@ h2 {
     border: 1px solid yellow;
 }
 
-#contenedor {
-}
-
 #contenedor > header#Cabecera {
     background: url(http://masfondos.mx/wp-content/uploads/2016/03/fondo-banner.jpg);
     height: 100px;
