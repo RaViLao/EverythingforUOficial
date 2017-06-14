@@ -1,0 +1,414 @@
+
+body {
+	padding:0;
+	margin:0;
+}
+
+/*nercto*/
+#contacto{
+	position:fixed;
+	left:0;
+	top:250px;
+	z-index:2000;	
+}
+#contacto ul{
+	list-style: none;
+	padding:0;
+}
+#contacto ul li a{
+	display:inline-block;
+	color:white;
+	background-color: black;
+	padding:10px 15px;
+	text-decoration: none;
+}
+#contacto ul li a:hover{
+	background-color: #fff;
+	color: black;
+	padding: 10px 25px;
+}
+
+
+/*Editaremos el Header*/
+/*División de estructura de header*/
+
+#Cabecera{
+	background-color: #242623;
+	/*debe analizarse*/position:fixed;
+	width:100%;
+	left:0;
+	z-index:4;/*cierre de debe analizarse*/
+}
+#Cabecera > #Izq{
+	float:left;
+	width:20%;
+}
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#Cabecera > #Derecha{
+	float:right;
+	width:30%;
+}
+
+#Cabecera > #Centro{
+	margin-left:20%;
+	margin-right:30%;
+}
+
+/*División de estructura de Zona login y registrate*/
+
+#logReg h3{
+	font-size: 10px;
+	display: inline-block;
+}
+#Cabecera > #Centro{
+	padding:18px;
+}
+
+#logReg #unete , #entrar{
+	border:1px dashed red;
+	text-align: center;
+	padding:7px 0;
+
+}
+#logReg #unete{
+	float:left;
+	
+	width:50%;
+}
+#logReg #entrar{
+	margin-left: 50%;
+}
+
+/*Seccion de buscador*/
+#buscador{
+	width: 70%;
+	margin-left: 10%;
+	height: 26px;
+	border-radius: 21px;
+	background-color: #eff2f7;
+	box-shadow: none;
+	font-family: 'Mogra', cursive;
+}
+#buscar{
+	border-radius: 18px;
+	padding:7px 9px;
+	background-color: #74a6f7;
+}
+#text{
+	width:10%;
+	float:left;
+	padding: 15px 0;
+	text-align:center;
+}
+#navegacion{
+	background-color: #4357ad;
+	/*debe analizarse*/padding-top:70px;
+}
+#cat{
+	margin-left: 10%;	
+}
+
+#cat > a{
+	display: inline-block;
+	padding:15px 0;
+	width:10.8%;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+}
+#cat> a:hover{
+	background-color: #f2f2f2;
+	color:black;
+	font-family: 'Mogra', cursive;
+}
+
+
+
+#fin{
+	border-bottom: 2px solid #1f2633;
+}
+
+/*Parte principal*/
+
+/*Invitación a unirse*/
+#bienve >img{
+	border:1px solid red;
+	display:inline-block;
+	float:right;
+	width:50%;
+}
+.invitacion{
+	font-size: 25px;
+	margin:0;
+	padding-top:35px;
+}
+
+#tBien{
+	margin-right:50%;
+	text-align: center;
+	font-family: 'Mogra', cursive; 
+	
+}
+#tBien > img.prod{
+	display:inline-block;
+	width: 100px;
+	height:50px;
+}
+.logos{
+	height:100px;
+	width:80px;
+}
+
+/*Sección de Publicidad*/
+
+#Contenedor2 > #principal > *{
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+#Publicidad{
+	float:left;
+	width: 20%;
+	border: 1px dashed green;
+}
+#principal{
+	margin-left:20%;
+}
+
+#destacados, #recientes{
+	width:80%;
+	border: 1px dashed blue;
+}
+
+#principal  .izqD{
+	float: left;
+	width: 25%;
+	margin: 10px 0 10px 6%;
+	border: 1px solid red;
+}
+#principal .derD{
+	float: right;
+	width: 25%;
+	margin: 10px 6% 10px 0;
+	border: 1px solid red;
+}
+#principal .cenD{
+	margin: 10px 34%;
+	border: 1px solid red;
+}
+
+#piefin{
+	padding:20px 0;
+}
+
+.limitar{
+	clear: both;
+	text-align:center;
+}
+.cates:hover{
+	background-color: #f2f2f2;
+	border:1px solid red;
+}
+
+/*Crear Cuenta*/
+#izq {
+    float: left;
+    width: 40%;
+}
+
+#miniconten {
+    float: right;
+    width: 60%;
+    min-height: 400px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#miniconten > h1 {
+    text-align: center;
+}
+
+#miniconten > ul {
+    background: #ffffff;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+
+#miniconten > ul > li {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+#boton {
+    margin-left: 35%;
+    background-color: #1E90FF;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/*Recuperar Contrasenia*/
+#local{
+	
+    width: 274px;
+    height: 242px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    padding-top:  20px;
+    padding-bottom: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+#input{
+    width: 266px;
+	height:36px;
+	border-radius: 5px;
+	padding-left: 7px;
+	}
+#submit{
+	margin-top: 10px;
+    width: 100%;
+	background-color:#4d90fe;
+	height:36px;
+	border-radius: 20px;
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	max-width: 100;
+}
+
+#titulo1{
+	text-align:center;
+}
+#title{
+	font-size: 36px;
+}
+/*Iniciar Usuario*/
+/*INgresar Correo*/
+#contenedor {
+	background: url(http://2.bp.blogspot.com/-M9NuestmHJ0/UxzOycePZeI/AAAAAAAAGIs/_McXAkCVKcs/s1600/Ciclorama-copia.JPG);
+}
+
+#miniconten {
+	width: 40%;
+	margin: auto;
+	padding: 30px;
+    font-size: 25px;
+}
+
+#miniconten > #correo {
+    width: 350px; 
+    height: 35px; 
+    margin-left: 30px; 
+    border: none; 
+    font-size: 50px;
+}
+#boton {
+    margin-left: 35%;
+    background-color: #1E90FF;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#medio {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul {
+	background: url(https://images-na.ssl-images-amazon.com/images/I/71p5%2B77TRzL._SL1001_.jpg);
+}
+
+li {
+	list-style-type: none;
+}
+h1 {
+	 text-align: center;
+	 padding: 10px;
+}
+#medio > li{
+	text-decoration: none;
+}
+
+
+/*POnerCOntraseña*/
+#contenedor {
+	background: url(http://2.bp.blogspot.com/-M9NuestmHJ0/UxzOycePZeI/AAAAAAAAGIs/_McXAkCVKcs/s1600/Ciclorama-copia.JPG);
+}
+
+#contra {
+	font-size: 34px;
+}
+#miniconten {
+    margin: auto;
+    width: 45%;
+    min-height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#miniconten > ul > li {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 10spx;
+    margin: 5px;
+    font-size: 30px;
+}
+
+#miniconten > h1 {
+    padding-left: 0px;
+}
+
+#medio {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+ul {
+	background: url(http://www.datafactory.la/wp-content/themes/datafactory/images/fondo_radial.jpg);
+	padding-bottom:20px;
+	border-radius: 10px;
+    border: 1px solid darkgrey;
+}
+#boton {
+    float: right;
+    background-color: #1E90FF;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+	margin-right: 45px;
+}
+
+#medio > li > a {
+    font-size: 18px;
+    margin-left: 65px;
+}
+
+#bienve{
+	background-image: url(images\fondoBien.jpg);
+}
+
+
