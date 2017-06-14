@@ -1,55 +1,11 @@
-body {
-	padding:0;
-	margin:0;
-}
 
-#Cabecera{
-	background-color: #242623;
-	/*debe analizarse*/position:fixed;
-	width:100%;
-	left:0;
-	z-index:4;/*cierre de debe analizarse*/
+.limitar{
+	clear: both;
+	text-align:center;
 }
-#Cabecera > #Izq{
-	float:left;
-	width:20%;
-}
-body{
-	font-family: 'Nunito Sans', sans-serif;
-}
-
-#Cabecera > #Derecha{
-	float:right;
-	width:30%;
-}
-
-#Cabecera > #Centro{
-	margin-left:20%;
-	margin-right:30%;
-}
-/*División de estructura de Zona login y registrate*/
-
-#logReg h3{
-	font-size: 10px;
-	display: inline-block;
-}
-#Cabecera > #Centro{
-	padding:18px;
-}
-
-#logReg #unete , #entrar{
-	border:1px dashed red;
-	text-align: center;
-	padding:7px 0;
-
-}
-#logReg #unete{
-	float:left;
-	
-	width:50%;
-}
-#logReg #entrar{
-	margin-left: 50%;
+.cates:hover{
+	background-color: #f2f2f2;
+	border:1px solid red;
 }
 /*Seccion de buscador*/
 #buscador{
@@ -95,18 +51,7 @@ body{
 }
 
 
-#piefin{
-	padding:20px 0;
-}
 
-.limitar{
-	clear: both;
-	text-align:center;
-}
-.cates:hover{
-	background-color: #f2f2f2;
-	border:1px solid red;
-}
 #fin{
 	border-bottom: 2px solid #1f2633;
 }
@@ -144,4 +89,14 @@ body{
     padding: 5px;
     margin: 5px;
     font-size: 18px;
+}
+#boton {
+    margin-left: 35%;
+    background-color: #1E90FF;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
 }
