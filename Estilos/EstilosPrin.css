@@ -36,6 +36,7 @@ body {
 	background-color: #242623;
 	/*debe analizarse*/position:fixed;
 	width:100%;
+	min-height: 75px;
 	left:0;
 	z-index:4;/*cierre de debe analizarse*/
 }
@@ -221,50 +222,68 @@ background-image: url(../images/Bienvenida.jpg);
 }
 
 /*Crear Cuenta*/
-#izq {
+#crearCuenta {
+	
+background-image: url(../images/Bienvenida.jpg);
+	border: 1px solid red;
+}
+#crearCuenta > #izq {
     float: left;
     width: 40%;
+	margin-top: 50px;
 }
-
-#miniconten {
-    float: right;
-    width: 60%;
-    min-height: 400px;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+#crearCuenta > #izq > #convencer{
+	width: 80%;
+	margin: auto;
+	margin-top: 150px;
+	text-align: center;
+	font-family: Segoe Print;
 }
-
-#miniconten > h1 {
+#crearCuenta > #izq > #convencer > img{
+	width: 190px;
+}
+#crearCuenta > #dere {
+	float: right;
+	width: 60%;
+	margin-top: 50px;
+}
+#crearCuenta > #dere > h1 {
     text-align: center;
+	margin-bottom: 0;
 }
 
-#miniconten > ul {
-    background: #ffffff;
+#crearCuenta > #dere > ul {
+	background: #eaeae1;
     border: 1px solid darkgrey;
     border-radius: 10px;
-    width: 60%;
+    width: 50%;
     margin: auto;
+	padding-top: 10px;
+	padding-bottom: 6px;
 }
-
-
-#miniconten > ul > li {
+#crearCuenta > #dere > ul > li {
     list-style-type: none;
     margin-left: 0;
     padding: 5px;
     margin: 5px;
     font-size: 18px;
 }
-#boton {
-    margin-left: 35%;
+.cajita {
+	width: 300px; 
+	height: 25px;
+	border-radius: 6px;
+}
+
+.boton {
     background-color: #1E90FF;
     font-size: 22px;
     color: white;
     border: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border-radius: 8px;
     cursor: pointer;
+	margin-left: 65%;
+	margin-top: 5px;
 }
 
 /*Recuperar Contrasenia*/
@@ -310,9 +329,6 @@ background-image: url(../images/Bienvenida.jpg);
 }
 /*Iniciar Usuario*/
 /*INgresar Correo*/
-#contenedor {
-	background: url(http://2.bp.blogspot.com/-M9NuestmHJ0/UxzOycePZeI/AAAAAAAAGIs/_McXAkCVKcs/s1600/Ciclorama-copia.JPG);
-}
 
 #miniconten {
 	width: 40%;
@@ -360,10 +376,6 @@ h1 {
 
 
 /*POnerCOntraseña*/
-#contenedor {
-	background: url(http://2.bp.blogspot.com/-M9NuestmHJ0/UxzOycePZeI/AAAAAAAAGIs/_McXAkCVKcs/s1600/Ciclorama-copia.JPG);
-}
-
 #contra {
 	font-size: 34px;
 }
