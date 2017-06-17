@@ -210,8 +210,11 @@ background-image: url(../images/Bienvenida.jpg);
 
 #piefin{
 	padding:20px 0;
+	background-color: #242623;}
+#piefin > a {
+	color: #fff;
+	font-family: Arial;
 }
-
 .limitar{
 	clear: both;
 	text-align:center;
@@ -222,10 +225,9 @@ background-image: url(../images/Bienvenida.jpg);
 }
 
 /*Crear Cuenta*/
+
 #crearCuenta {
-	
-background-image: url(../images/Bienvenida.jpg);
-	border: 1px solid red;
+	background-color: #fff7e6;
 }
 #crearCuenta > #izq {
     float: left;
@@ -250,6 +252,9 @@ background-image: url(../images/Bienvenida.jpg);
 #crearCuenta > #dere > h1 {
     text-align: center;
 	margin-bottom: 0;
+	font-family: Century;
+	font-size: 38px;
+	padding: 12px;
 }
 
 #crearCuenta > #dere > ul {
@@ -276,14 +281,14 @@ background-image: url(../images/Bienvenida.jpg);
 
 .boton {
     background-color: #1E90FF;
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     border: none;
     padding: 5px 10px;
     border-radius: 8px;
     cursor: pointer;
-	margin-left: 65%;
-	margin-top: 5px;
+	margin-left: 63%;
+	margin-top: 10px;
 }
 
 /*Recuperar Contrasenia*/
@@ -327,104 +332,76 @@ background-image: url(../images/Bienvenida.jpg);
 #title{
 	font-size: 36px;
 }
-/*Iniciar Usuario*/
-/*INgresar Correo*/
 
-#miniconten {
-	width: 40%;
-	margin: auto;
-	padding: 30px;
-    font-size: 25px;
+
+/*Iniciar Sesion*/
+.permanente {
+	color: #fff;
 }
 
-#miniconten > #correo {
+#iniciarSesion {
+	width: 36%;
+	margin: auto;
+    margin-top: 80px;
+    min-height: 553px;
+}
+
+#iniciarSesion > #correo {
     width: 350px; 
     height: 35px; 
     margin-left: 30px; 
     border: none; 
     font-size: 50px;
 }
-#boton {
-    margin-left: 35%;
-    background-color: #1E90FF;
-    font-size: 22px;
+
+#iniciarSesion > #medio {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #f5f5ef;
+	border-radius: 13px;
+	border: 1px solid darkgrey;
+}
+
+#iniciarSesion > #medio > li{
+	list-style-type: none;
+	font-size: 25px;
+	font-family: Arial;
+	padding: 20px;
+}
+#iniciarSesion > #medio > li > a {
+	text-decoration: none;
+	color: #1773ce;
+	font-size: 18px;
+}
+#iniciarSesion > #cajaDatos {
+	 border-bottom: 2px solid #1773ce;
+	 font-size: 45px;
+	 font-family: Century;
+	 margin-left: 25px;
+}
+.cajaIngreso {
+	width: 340px; 
+	height: 25px; 
+	margin-left: 20px; 
+	border: none;
+	border-radius: 8px; 
+	font-size: 18px; 
+	padding: 8px 2px;
+	margin-top: 10px;
+	border-bottom: 1px solid #1773ce;
+}
+.botonISC {
+	background-color: #1E90FF;
+    font-size: 25px;
     color: white;
     border: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border-radius: 8px;
     cursor: pointer;
 }
-#medio {
-	padding-top: 20px;
-	padding-bottom: 20px;
+.cajaBoton {
+	margin-left: 37%;
 }
-
-ul {
-	background: url(https://images-na.ssl-images-amazon.com/images/I/71p5%2B77TRzL._SL1001_.jpg);
-}
-
-li {
-	list-style-type: none;
-}
-h1 {
-	 text-align: center;
-	 padding: 10px;
-}
-#medio > li{
-	text-decoration: none;
-}
-
-
-/*POnerCOntraseña*/
-#contra {
-	font-size: 34px;
-}
-#miniconten {
-    margin: auto;
-    width: 45%;
-    min-height: 400px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-#miniconten > ul > li {
-    list-style-type: none;
-    margin-left: 0;
-    padding: 10spx;
-    margin: 5px;
-    font-size: 30px;
-}
-
-#miniconten > h1 {
-    padding-left: 0px;
-}
-
-#medio {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-ul {
-	background: url(http://www.datafactory.la/wp-content/themes/datafactory/images/fondo_radial.jpg);
-	padding-bottom:20px;
-	border-radius: 10px;
-    border: 1px solid darkgrey;
-}
-#boton {
-    float: right;
-    background-color: #1E90FF;
-    font-size: 22px;
-    color: white;
-    border: none;
-    padding: 10px 10px;
-    border-radius: 8px;
-	margin-right: 45px;
-}
-
-#medio > li > a {
-    font-size: 18px;
-    margin-left: 65px;
-}
-
 
 
 
