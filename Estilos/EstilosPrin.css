@@ -447,5 +447,32 @@ background-image: url(../images/Bienvenida.jpg);
 	margin-left: 37%;
 }
 
+/* Descripción del producto*/
+#barras{
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+}
 
+#izq{
+	float: left;
+	width: 30%;
+	text-align: center;
+}
 
+#der{
+	margin-left: 40%;
+}
+
+#botones{
+	clear: both;
+}
+
+#botonComp{
+	float: left;
+	margin-left: 70%;
+}
+#botonCarr{
+	margin-left: 70%;
+	text-align: right;
+}
