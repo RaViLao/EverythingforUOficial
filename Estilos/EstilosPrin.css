@@ -141,7 +141,7 @@ background-image: url(../images/Bienvenida.jpg);
 }
 
 #bienve >img{
-	border:1px solid red;
+
 	display:inline-block;
 	height:440px;
 	float:right;
@@ -188,24 +188,24 @@ background-image: url(../images/Bienvenida.jpg);
 
 #destacados, #recientes{
 	width:80%;
-	border: 1px dashed blue;
+	
 }
 
 #principal  .izqD{
 	float: left;
 	width: 25%;
 	margin: 10px 0 10px 6%;
-	border: 1px solid red;
+	
 }
 #principal .derD{
 	float: right;
 	width: 25%;
 	margin: 10px 6% 10px 0;
-	border: 1px solid red;
+	
 }
 #principal .cenD{
 	margin: 10px 34%;
-	border: 1px solid red;
+	
 }
 
 #piefin{
@@ -219,10 +219,33 @@ background-image: url(../images/Bienvenida.jpg);
 	clear: both;
 	text-align:center;
 }
-.cates:hover{
-	background-color: #f2f2f2;
-	border:1px solid red;
+
+
+/*Destacados*/
+.icono1{
+	float:left;
+	display:inline-block;
+	
 }
+
+.icono2{
+	float:right;
+	display:inline-block;
+	
+}
+.icono1, .icono2{
+	padding:20% 0;
+	text-align: center;
+}
+.ImgP{
+	width:100%;
+	height:300px;
+}
+#principal * {
+	text-align: center;
+	
+}
+
 
 /*Crear Cuenta*/
 
