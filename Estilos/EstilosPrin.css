@@ -4,7 +4,7 @@ body {
 	margin:0;
 }
 
-/*nercto*/
+/*contacto*/
 #contacto{
 	position:fixed;
 	left:0;
@@ -36,6 +36,7 @@ body {
 	background-color: #242623;
 	/*debe analizarse*/position:fixed;
 	width:100%;
+	min-height: 75px;
 	left:0;
 	z-index:4;/*cierre de debe analizarse*/
 }
@@ -134,9 +135,15 @@ body{
 /*Parte principal*/
 
 /*Invitación a unirse*/
+#bienve{
+background-image: url(../images/Bienvenida.jpg);
+	
+}
+
 #bienve >img{
 	border:1px solid red;
 	display:inline-block;
+	height:440px;
 	float:right;
 	width:50%;
 }
@@ -203,8 +210,11 @@ body{
 
 #piefin{
 	padding:20px 0;
+	background-color: #242623;}
+#piefin > a {
+	color: #fff;
+	font-family: Arial;
 }
-
 .limitar{
 	clear: both;
 	text-align:center;
@@ -215,50 +225,70 @@ body{
 }
 
 /*Crear Cuenta*/
-#izq {
+
+#crearCuenta {
+	background-color: #fff7e6;
+}
+#crearCuenta > #izq {
     float: left;
     width: 40%;
+	margin-top: 50px;
 }
-
-#miniconten {
-    float: right;
-    width: 60%;
-    min-height: 400px;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+#crearCuenta > #izq > #convencer{
+	width: 80%;
+	margin: auto;
+	margin-top: 150px;
+	text-align: center;
+	font-family: Segoe Print;
 }
-
-#miniconten > h1 {
+#crearCuenta > #izq > #convencer > img{
+	width: 190px;
+}
+#crearCuenta > #dere {
+	float: right;
+	width: 60%;
+	margin-top: 50px;
+}
+#crearCuenta > #dere > h1 {
     text-align: center;
+	margin-bottom: 0;
+	font-family: Century;
+	font-size: 38px;
+	padding: 12px;
 }
 
-#miniconten > ul {
-    background: #ffffff;
+#crearCuenta > #dere > ul {
+	background: #eaeae1;
     border: 1px solid darkgrey;
     border-radius: 10px;
-    width: 60%;
+    width: 50%;
     margin: auto;
+	padding-top: 10px;
+	padding-bottom: 6px;
 }
-
-
-#miniconten > ul > li {
+#crearCuenta > #dere > ul > li {
     list-style-type: none;
     margin-left: 0;
     padding: 5px;
     margin: 5px;
     font-size: 18px;
 }
-#boton {
-    margin-left: 35%;
+.cajita {
+	width: 300px; 
+	height: 25px;
+	border-radius: 6px;
+}
+
+.boton {
     background-color: #1E90FF;
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     border: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border-radius: 8px;
     cursor: pointer;
+	margin-left: 63%;
+	margin-top: 10px;
 }
 
 /*Recuperar Contrasenia -------------------------------------------------------------------------------------------------------------------------------*/
@@ -306,6 +336,7 @@ body{
 #title{
 	font-size: 36px;
 }
+<<<<<<< HEAD
 #imagen{
 	height: 118px;
 }
@@ -326,108 +357,78 @@ body{
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Iniciar Usuario*/
 /*INgresar Correo*/
+=======
 
-#miniconten {
-	width: 40%;
+
+/*Iniciar Sesion*/
+.permanente {
+	color: #fff;
+}
+>>>>>>> d1e96729cf6122b228442c40a1abded52c31e424
+
+#iniciarSesion {
+	width: 36%;
 	margin: auto;
-	padding: 30px;
-    font-size: 25px;
+    margin-top: 80px;
+    min-height: 553px;
 }
 
-#miniconten > #correo {
+#iniciarSesion > #correo {
     width: 350px; 
     height: 35px; 
     margin-left: 30px; 
     border: none; 
     font-size: 50px;
 }
-#boton {
-    margin-left: 35%;
-    background-color: #1E90FF;
-    font-size: 22px;
+
+#iniciarSesion > #medio {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #f5f5ef;
+	border-radius: 13px;
+	border: 1px solid darkgrey;
+}
+
+#iniciarSesion > #medio > li{
+	list-style-type: none;
+	font-size: 25px;
+	font-family: Arial;
+	padding: 20px;
+}
+#iniciarSesion > #medio > li > a {
+	text-decoration: none;
+	color: #1773ce;
+	font-size: 18px;
+}
+#iniciarSesion > #cajaDatos {
+	 border-bottom: 2px solid #1773ce;
+	 font-size: 45px;
+	 font-family: Century;
+	 margin-left: 25px;
+}
+.cajaIngreso {
+	width: 340px; 
+	height: 25px; 
+	margin-left: 20px; 
+	border: none;
+	border-radius: 8px; 
+	font-size: 18px; 
+	padding: 8px 2px;
+	margin-top: 10px;
+	border-bottom: 1px solid #1773ce;
+}
+.botonISC {
+	background-color: #1E90FF;
+    font-size: 25px;
     color: white;
     border: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border-radius: 8px;
     cursor: pointer;
 }
-#medio {
-	padding-top: 20px;
-	padding-bottom: 20px;
+.cajaBoton {
+	margin-left: 37%;
 }
 
-ul {
-	background: url(https://images-na.ssl-images-amazon.com/images/I/71p5%2B77TRzL._SL1001_.jpg);
-}
-
-li {
-	list-style-type: none;
-}
-h1 {
-	 text-align: center;
-	 padding: 10px;
-}
-#medio > li{
-	text-decoration: none;
-}
-
-
-/*POnerCOntraseña*/
-#contenedor {
-	background: url(http://2.bp.blogspot.com/-M9NuestmHJ0/UxzOycePZeI/AAAAAAAAGIs/_McXAkCVKcs/s1600/Ciclorama-copia.JPG);
-}
-
-#contra {
-	font-size: 34px;
-}
-#miniconten {
-    margin: auto;
-    width: 45%;
-    min-height: 400px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-#miniconten > ul > li {
-    list-style-type: none;
-    margin-left: 0;
-    padding: 10spx;
-    margin: 5px;
-    font-size: 30px;
-}
-
-#miniconten > h1 {
-    padding-left: 0px;
-}
-
-#medio {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-ul {
-	background: url(http://www.datafactory.la/wp-content/themes/datafactory/images/fondo_radial.jpg);
-	padding-bottom:20px;
-	border-radius: 10px;
-    border: 1px solid darkgrey;
-}
-#boton {
-    float: right;
-    background-color: #1E90FF;
-    font-size: 22px;
-    color: white;
-    border: none;
-    padding: 10px 10px;
-    border-radius: 8px;
-	margin-right: 45px;
-}
-
-#medio > li > a {
-    font-size: 18px;
-    margin-left: 65px;
-}
-
-#bienve{
-	background-image: url(images\fondoBien.jpg);
-}
 
 

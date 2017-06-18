@@ -7,8 +7,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
 	<link rel="stylesheet"  href="Estilos/fonts.css">
+	<script src="javaS/libreria.js"></script>
+	<script src="javaS/Eventos.js"></script>
+	
 </head>
-<body>
+<body id="cuerpo">
 <div id="contacto">
 	<ul>
 		<li><a target="_blank" href="https://www.facebook.com/login.php?login_attempt=1&lwv=110" class="icon-facebook2"></a></li>
@@ -30,9 +33,9 @@
 					</a>
 				</section>			
 				<section id="entrar">
-				<a href="IniciarSesión/IniciarUsuario.html">
+				<a href="IniciarUsuario.html">
 					<img  clas="subLog" src="logeate"/>
-					<h3> Inicia Sesión</h3>
+					<h3 onclick="bus();"> Inicia Sesión</h3>
 					</a>
 				</section>
 			
@@ -42,7 +45,7 @@
 		</section>
 		<section id="Centro">
 			<input type="text" id="buscador" placeholder="Buscar" />
-			<input type="submit" value="Buscar" id="buscar"/>
+			<input type="submit" value="Buscar" id="buscar" />
 		</section>
 		<div class="limitar"></div>
 </header> 
@@ -62,7 +65,7 @@
 <div class="limitar" id="fin"></div>
 </nav>
 <div id="bienve">
-	<img src="images/universitarios.png"/>
+	<img id="pres" src=""/>
 	<div id="tBien">
 		<h3 class="invitacion">Somos una comunidad pensada para ti</h3>
 		<p> Queremos ayudarte a encontrar lo que buscas</p>

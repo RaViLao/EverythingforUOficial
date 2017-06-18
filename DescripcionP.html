@@ -3,21 +3,73 @@
 <head>
     <meta charset="utf-8" />
     <title>Everyhing For U</title>
-    <link href="Estilos/EstilosPrin.css" rel="stylesheet" />
+        <link href="Estilos/EstilosPrin.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+	<link rel="stylesheet"  href="Estilos/fonts.css">
 </head>
 <body>
-    <div id="contenedor">
-        <header>
-            <img src="http://manufactur.co/wp-content/uploads/2015/06/u-logo.png" />
-            Everything For U
-            <div class="limitar"></div>
-        </header>
+<div id="contacto">
+    <ul>
+        <li><a target="_blank" href="https://www.facebook.com/login.php?login_attempt=1&lwv=110" class="icon-facebook2"></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/?hl=es" class="icon-instagram"></a></li>
+        <li><a target="_blank" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" class="icon-google-plus"></a></li>
+        <li><a target="_blank" href="mailto:ramiro.genio@usil.pe" class="icon-mail"></a></li>
+    </ul>
+</div>
 
+<div id="container">
+    <header id="Cabecera">
+            <section id="Izq"> Logo</section>
+            <section id="Derecha">
+                <div id="logReg">
+                
+                    <section id="unete">
+                    <a href="CrearCuenta/CrearCuenta.html"/>
+                        <img clas="subLog" src="Registrate"/>
+                        <h3>Registrate</h3>
+                        </a>
+                    </section>          
+                    <section id="entrar">
+                    <a href="IniciarSesión/IniciarUsuario.html">
+                        <img  clas="subLog" src="logeate"/>
+                        <h3> Inicia Sesión</h3>
+                        </a>
+                    </section>
+                
+                    <div class="limitar"></div>
+                
+                </div>
+            </section>
+            <section id="Centro">
+                <input type="text" id="buscador" placeholder="Buscar" />
+                <input type="submit" value="Buscar" id="buscar"/>
+            </section>
+            <div class="limitar"></div>
+    </header> 
+
+    <nav id="navegacion"> 
+        <div id="text"> Lo que necesitas: </div>
+        <div id="cat">
+            <a href="cat1.html"> Ingenieria</a>
+            <a href="cat2.html"> Empresariales</a>
+            <a href="cat3.html"> Derecho</a>
+            <a href="cat4.html"> Humanidades</a>
+            <a href="cat5.html"> Salud</a>
+            <a href="cat6.html"> Gastronomia</a>
+            <a href="cat7.html"> Educacion</a>
+            <a href="cat8.html"> Sociales</a>
+            <a href="cat9.html"> Otros</a>
+        </div>
+        <div class="limitar" id="fin"></div>
+    </nav>
+
+    <div id="cuerpoProd">
         <div id="barras">
             <aside id="izq">
                 <h1>Categorías</h1>
-            </aside> 	
-			
+            </aside>    
+            
             <div id="der">
                 <h1>Calculadora Gráfica HP50g</h1>
                 <br/>
@@ -44,26 +96,55 @@
             </div>
         </div>
 
-        <div id="botonComp">
-            <button>
-                <img width="150px" src="http://habileperu.com/wp/wp-content/uploads/2016/04/BOTON-COMPRAR1.png">
-            </button>
-        </div>
-        <div id="botonCarr">
-            <button>
-                <img width="150px" src="https://retailmktg.files.wordpress.com/2016/03/addtocart-style3-nopp.png?w=648">
-            </button>
-        </div>
-        <div id="empty"></div>
-        <br/>
+        <div id="botones">
 
+            <div id="botonComp">
+                <button>
+                    <img width="150px" src="http://habileperu.com/wp/wp-content/uploads/2016/04/BOTON-COMPRAR1.png">
+                </button>
+            </div>
 
-        <footer>
-            <a href="">Privacidad</a>    
-            <a href="">Condiciones de Uso</a>
-            <a href="">Ayuda</a>
-        </footer>
+            <div id="botonCarr">
+                <button>
+                    <img width="150px" src="https://retailmktg.files.wordpress.com/2016/03/addtocart-style3-nopp.png?w=648">
+                </button>
+            </div>
+            <br/>
+
+        </div>
+
+    <div class="limitar"></div>
+</div>
+
+<div id="Contenedor2">
+    <aside id="Publicidad">
+        <section>
+    </aside>
+    <div id="principal">
+        <h2>Destacados</h2>
+        <div id="destacados">
+            <section class="izqD"></section>
+            <section class="derD"></section>
+            <section class="cenD"></section>
+            <footer class="limitar"></footer>
+        </div>
+
+        <h2>Publicados Recientemente</h2>
+        <div id="recientes">
+                                               
+            <section class="izqD"></section>
+            <section class="derD"></section>
+            <section class="cenD"></section>
+            <footer class="limitar"></footer>
+        </div>
 
     </div>
+</div>
+
+<footer class="limitar" id="piefin">
+    <a href="Contactanos.html">Contactanos</a>
+</footer>
+
+</div>
 </body>
 </html>
