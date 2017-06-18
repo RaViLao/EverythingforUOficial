@@ -377,17 +377,11 @@ background-image: url(../images/Bienvenida.jpg);
 #imagen p, h3{
 	margin: 0px;
 }
-/* --------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*Iniciar Usuario*/
-/*INgresar Correo*/
-=======
-
 
 /*Iniciar Sesion*/
 .permanente {
 	color: #fff;
 }
->>>>>>> d1e96729cf6122b228442c40a1abded52c31e424
 
 #iniciarSesion {
 	width: 36%;
