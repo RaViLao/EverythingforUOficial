@@ -317,14 +317,14 @@ background-image: url(../images/Bienvenida.jpg);
 /*Recuperar Contrasenia -------------------------------------------------------------------------------------------------------------------------------*/
 #local{
 	
-    width: 329px;
-    height: 236px;
+    width: 394px;
+    height: 350px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 28px;
     margin-bottom: 10px;
     background-color: #f7f7f7;
     padding-top:  20px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 10px;
@@ -378,6 +378,18 @@ background-image: url(../images/Bienvenida.jpg);
 	margin: 0px;
 }
 
+#back{
+	background-image: url(../images/Bienvenida.jpg);
+
+}
+#contenedor{
+	
+}
+#todo{
+	padding-bottom: 4px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Iniciar Sesion*/
 .permanente {
 	color: #fff;
