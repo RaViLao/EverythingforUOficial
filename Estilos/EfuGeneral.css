@@ -33,7 +33,7 @@ body {
 /*División de estructura de header*/
 
 #Cabecera{
-	background-color: #0f9676;
+	background-color: #242623;
 	/*debe analizarse*/position:fixed;
 	width:100%;
 	min-height: 75px;
@@ -129,14 +129,14 @@ body{
 
 
 #fin{
-	border-bottom: 2px solid #0f9676;
+	border-bottom: 2px solid black
 }
 
 /*Parte principal*/
 
 /*Invitación a unirse*/
 #bienve{
-background-image: url(../images/Bienvenida.jpg);
+background-image: url(../image/Bienvenida.jpg);
 	
 }
 

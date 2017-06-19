@@ -2,9 +2,9 @@ $(document).ready(function(){
 		
 	$("#bienve").ready(function(){
 		var Images = new Array(
-			'images/universitarios.png',
-			'images/universitarios2.png',
-			'images/universitarios3.png',
+			'image/universitarios.png',
+			'image/universitarios2.png',
+			'image/universitarios3.png',
 			'http://tusimagenesde.com/wp-content/uploads/2016/07/universitarios-1.jpg');
 		var Aux=[];
 			cargar();
