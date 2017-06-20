@@ -2,6 +2,7 @@
 body {
 	padding:0;
 	margin:0;
+	background-color: #e8e8e8;
 }
 
 /*contacto*/
@@ -15,14 +16,14 @@ body {
 	list-style: none;
 	padding:0;
 }
-#contacto ul li a{
+#contacto > ul >  li  > a{
 	display:inline-block;
 	color:white;
 	background-color: black;
 	padding:10px 15px;
 	text-decoration: none;
 }
-#contacto ul li a:hover{
+#contacto > ul >  li  > a:hover{
 	background-color: #fff;
 	color: black;
 	padding: 10px 25px;
@@ -169,6 +170,77 @@ background-image: url(../image/Bienvenida.jpg);
 	width:80px;
 }
 
+/*Principal*/
+#Contenedor2{
+	width:1100px;
+	margin:auto;
+	
+}
+
+
+.beforeC{
+	float:left;
+	width:3%;
+	display:inline-block;
+	margin: 25% 0;
+	padding:10px 15px 10px 0;
+}
+.nextC{
+	float:right;
+	width:3%;
+	display:inline-block;
+	margin: 25% 0;
+	padding:10px 0 10px 15px;
+}
+.producto{
+	width:100%;
+	border-radius: 10px;
+
+}
+.prod{
+	margin:0 3%;
+}
+
+.izqP{
+	float:left;
+	width:32%;
+	opacity: 0.5;
+}
+.derP{
+	float:right;
+	width:32%;
+	opacity: 0.5;
+}
+.cenP{
+	border-radius: 10px;
+	width:21%;
+	position:absolute;
+	z-index:3;
+	left:47%;
+	font-weight: bold;
+	font-size: 18px;
+}
+.cenP > img{
+	height:280px;
+	border-radius: 30px;
+}
+.auxiliar{
+	border-radius: 10px;
+	width:21%;
+	position:absolute;
+	z-index:4;
+	left:47%;
+	font-weight: bold;
+	font-size: 18px;
+	opacity:1.0;
+}
+.conteP{
+	padding:25px;
+	background-color: #7a87c1;
+	border-radius: 15px;
+}
+
+
 /*Sección de Publicidad*/
 
 #Contenedor2 > #principal > *{
@@ -191,24 +263,8 @@ background-image: url(../image/Bienvenida.jpg);
 	
 }
 
-#principal  .izqD{
-	float: left;
-	width: 25%;
-	margin: 10px 0 10px 6%;
-	
-}
-#principal .derD{
-	float: right;
-	width: 25%;
-	margin: 10px 6% 10px 0;
-	
-}
-#principal .cenD{
-	margin: 10px 34%;
-	
-}
-
 #piefin{
+	margin-top:20px;
 	padding:20px 0;
 	background-color: #242623;}
 #piefin > a {

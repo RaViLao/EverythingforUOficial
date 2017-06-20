@@ -40,6 +40,18 @@ $(document).ready(function(){
 			}, 5000
 			);			
 	});
+
+
+	$("#PRizq").mouseover(function(){
+		
+		$("#PRizq").addClass("auxiliar");
+
+	});
+
+	$("#PRizq").mouseout(function(){
+		$("#PRizq").removeClass("auxiliar");
+	});
+
 });
 
 
