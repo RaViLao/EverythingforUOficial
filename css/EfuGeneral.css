@@ -1,0 +1,64 @@
+
+
+.color1{
+	background-color: grey;
+}
+
+#cabecera{
+	/*text-align: center;*/
+	background-color: #242623;
+	padding:12px 3px ;
+
+}
+
+#logo{
+	padding-left: 50px;
+}
+#logo > img{
+	width:100%;
+}
+#search, #logUn{
+	padding:8px;
+	text-align: center;
+}
+
+#search #buscador{
+	width:70%;
+	border-radius: 10px;
+	height: 35px;
+}
+
+#logUn > ul > li a{
+	color:white;
+	text-decoration: none;
+	padding:13px;	
+	background-color: grey;
+}
+
+
+#logUn li{
+	display: inline-block;
+	
+}
+#cat > #bp{
+	text-align:left;
+	padding-left:40px;
+}
+#cat section{
+	text-align:center;
+	padding:12px 0;
+	background-color: #4357ad;
+	color:white;
+	border-bottom:2px solid black;
+}
+#piefin{
+	background-color: #242623;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
+.contenedor{
+	min-height:110px;
+}
+
+
