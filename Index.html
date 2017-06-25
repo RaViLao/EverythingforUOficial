@@ -1,17 +1,19 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Everything For U</title>
-    <link href="Estilos/EfuGeneral.css" rel="stylesheet" />
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+	<link href="Estilos/bootstrap.min.css" rel="stylesheet"/>
+	<link href="Estilos/EfuMaestra.css" rel="stylesheet"/>
 	<link rel="stylesheet"  href="Estilos/IconosContactos.css">
+	<script src="JavaScript/jquery-3.2.1.min.js"></script>
+	<script src="JavaScript/bootstrap.min.js"></script>
 	<script src="JavaScript/libreria.js"></script>
 	<script src="JavaScript/Eventos.js"></script>
-	
 </head>
-<body id="cuerpo">
+<body>
 <div id="contacto">
 	<ul>
 		<li><a target="_blank" href="https://www.facebook.com/login.php?login_attempt=1&lwv=110" class="icon-facebook2"></a></li>
@@ -20,50 +22,61 @@
 		<li><a target="_blank" href="mailto:ramiro.genio@usil.pe" class="icon-mail"></a></li>
 	</ul>
 </div>
-<div id="container">
-<header id="Cabecera">
-		<section id="Izq"> Logo</section>
-		<section id="Derecha">
-			<div id="logReg">
-			
-				<section id="unete">
-				<a href="CrearCuenta.html"/>
-					<img clas="subLog" src="Registrate"/>
-					<h3>Registrate</h3>
-					</a>
-				</section>			
-				<section id="entrar">
-				<a href="IniciarUsuario.html">
-					<img  clas="subLog" src="logeate"/>
-					<h3> Inicia Sesión</h3>
-					</a>
-				</section>
-			
-				<div class="limitar"></div>
-			
+<header>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div id="conte" class="container">
+			<div class="navbar-header">
+			<a href="#"><img id="logito" src="Image/logoEfu.png"/> </a>			
+
+				<form action="" class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input ;" id="ya" class="form-control" type="text" placeholder="Buscar"></input>
+					</div>
+					<button type="submit" class="btn btn-primary">
+					<span class="glyphicon glyphicon-search"></span></button>
+					<a class="cent" href="CrearCuenta.html">
+						<img class="logo" src="Image/signed.png"/>Registrate</a>
+					<a class="cent" href="#"> 
+						<img class="logo" src="Image/login.png"/> Inicia Sesión</a>
+				</form>				
+			</div>	
+		</div>
+	</nav>
+</header>
+<div id="cuerpo">
+<div class="container navegador">	
+		<div class="navbar-header">
+				<button id="bi" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+					<span class=sr-only> Desplegar / Ocultar Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"> Buscar por: </a>
 			</div>
-		</section>
-		<section id="Centro">
-			<input type="text" id="buscador" placeholder="Buscar" />
-			<input type="submit" value="Buscar" id="buscar" />
-		</section>
-		<div class="limitar"></div>
-</header> 
-<nav id="navegacion"> 
-<div id="text"> Lo que necesitas: </div>
-<div id="cat">
-	<a href="cat1.html"> Ingenieria</a>
-	<a href="cat2.html"> Empresariales</a>
-	<a href="cat3.html"> Derecho</a>
-	<a href="cat4.html"> Humanidades</a>
-	<a href="cat5.html"> Salud</a>
-	<a href="cat6.html"> Gastronomia</a>
-	<a href="cat7.html"> Educacion</a>
-	<a href="cat8.html"> Sociales</a>
-	<a href="cat9.html"> Otros</a>
+		</button><!--Menu desplegabble -->
+		<div class="collapse navbar-collapse" id="navegacion-fm">
+				<ul class="nav navbar-nav" id="categorias">
+					<li><a href="#" >Ingenieria</a></li>
+					<li><a href="#" > Empresariales</a></li>
+					<li><a href="#" > Derecho</a></li>
+					<li><a href="#" > Humanidades</a></li>
+					<li><a href="#" > Salud</a></li>
+					<li><a href="#" > Gastronomía</a</li>
+					<li><a href="#" > Educación</a></li>
+					<li><a href="#" > Sociales</a></li>
+					<li><a href="#" > Arquitectura</a></li>
+					<li><a href="#" > Otros</a></li>
+					
+
+				</ul>
+				
+			</div>
+
+
 </div>
-<div class="limitar" id="fin"></div>
-</nav>
+<div>
+<div class="contenedor container">
 <div id="bienve">
 	<img id="pres" src=""/>
 	<div id="tBien">
@@ -79,89 +92,19 @@
 		<img class="logos" src="image/pucp.jpg"/>
 			<img class="logos" src="image/usil.png"/>
 			<img class="logos" src="image/ulima.png"/>
-		<p id="frases"> Eleige, Contacta y Compra</p><a href="CrearCuenta.html">Únete a la Comunidad</a>
-			
-
+		<p id="frases"> Eleige, Contacta y Compra</p></br><a id="inv" href="CrearCuenta.html">Únete a la Comunidad</a>
 	</div>
-
 <div class="limitar"></div>
-</div>
-<div id="Contenedor2">
-<aside id="Publicidad">
-<nav id="navegacionA"> 
-<div id="text"> Lo que necesitas: </div>
-<div id="catego">
-	<a href="cat1.html"> Ingenieria</a>
-	<a href="cat2.html"> Empresariales</a>
-	<a href="cat3.html"> Derecho</a>
-	<a href="cat4.html"> Humanidades</a>
-	<a href="cat5.html"> Salud</a>
-	<a href="cat6.html"> Gastronomia</a>
-	<a href="cat7.html"> Educacion</a>
-	<a href="cat8.html"> Sociales</a>
-	<a href="cat9.html"> Otros</a>
-</div>
-<div class="limitar" id="fin"></div>
-</nav>
-</aside>
-<div id="principal">
-	<h2 id="d">Destacados</h2>
-	<div class="conteP">
-		<img class="beforeC" src="Image/anterior.png"/>
-		<img class="nextC" src="Image/siguiente.png"/>
-		<div class="prod">
-			<section class="izqP" id="PDizq">
-				<img class="producto" src="Image/calcu.jpg"/>
-				<h4> Calculadora Cientifica</h4>
-				<label> S/. 100.00</label>
-			</section>
-			<section class="derP" id="PDder">
-				<img class="producto" src="Image/calcu.jpg"/>
-				<h4> Calculadora Cientifica</h4>
-				<label> S/. 100.00</label>
-			</section>
-			<section class="cenP" id="PDcen">
-				<img class="producto" src="Image/calcu.jpg"/>
-				<h4> Calculadora Cientifica</h4>
-				<label> S/. 100.00</label>
-			</section>
-			<div class="limitar"></div>
-		</div>
-		<div class="limitar"></div>
-	</div>
-	</br></br>
-	
-	<h2>Publicados Recientemente</h2>
-	<div class="conteP">
-		<img class="beforeC" src="Image/anterior.png"/>
-		<img class="nextC" src="Image/siguiente.png"/>
-		<div class="prod">
-			<section class="izqP" id="PRizq">
-				<img class="producto" src="Image/calcu.jpg"/>
-				<h4> Calculadora Cientifica</h4>
-				<label> S/. 100.00</label>
-			</section>
-			<section class="derP" id="PRder">
-				<img class="producto" src="Image/calcu.jpg"/>
-				<h4> Calculadora Cientifica</h4>
-				<label> S/. 100.00</label>
-			</section>
-			<section class="cenP" id="PRcen">
-				<img class="producto" src="Image/calcu.jpg"/>
-				<h4> Calculadora Cientifica</h4>
-				<label> S/. 100.00</label>
-			</section>
-			<div class="limitar"></div>
-		</div>
-		<div class="limitar"></div>
-	</div>
-	
 
 </div>
 </div>
-<footer class="limitar" id="piefin">
-	<a href="Contactanos.html">Contactanos</a>
-</footer>
 </div>
+
+<div class="container-fluid">
+	Hola
+</div>
+
+<footer class="limitar">Hola</footer>
+	
 </body>
 </html>

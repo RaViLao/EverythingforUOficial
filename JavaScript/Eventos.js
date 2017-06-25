@@ -41,15 +41,14 @@ $(document).ready(function(){
 			);			
 	});
 
-
-	$("#PRizq").mouseover(function(){
-		
-		$("#PRizq").addClass("auxiliar");
+	$("button#bi").click(function(){
+		$("#navegacion-fm").css("display", "block");
 
 	});
 
+
 	$("#PRizq").mouseout(function(){
-		$("#PRizq").removeClass("auxiliar");
+		$$("#navegacion-fm").css("display", "none");
 	});
 
 });

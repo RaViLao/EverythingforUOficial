@@ -1,0 +1,159 @@
+.navbar{
+	margin-bottom: 0;
+	text-align: center;
+}
+.navegador{
+	background-color: #4357ad;
+	
+}
+#categorias > li a, .navegador a {
+	color:white;
+	border-bottom: 1px solid black;
+}
+#categorias > li a:hover{
+	background-color: #f2f2f2;
+	color:black;
+}
+#bi{
+	background-color: black;
+}
+
+#conte{
+	padding:7px 0 0 30px;
+}
+.nav li ul{
+ display:  none;
+}
+
+.nav li:hover > ul{
+ display:  block;
+}
+
+#logito{	
+	width:150px;
+}
+
+input#ya{
+	width:610px;
+}
+
+.logo{
+	width:25px;
+}
+.limitar{
+	background-color: #333;
+}
+.container-fluid{
+	min-height: 50px;
+	background-color: red;
+}
+.cent, .cent:hover{
+	padding:15px;
+	color:white;
+}
+
+/*Agregado*/
+#cabecera{
+	/*text-align: center;*/
+	background-color: #242623;
+	padding:12px 3px ;
+}
+
+#logo{
+	padding-left: 50px;
+}
+#logo > img{
+	width:100%;
+}
+#search, #logUn{
+	padding:8px;
+	text-align: center;
+}
+#piefin{
+	background-color: #242623;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
+
+#cuerpo{
+	background-image: url(../Image/Bienvenida.jpg);
+	
+}
+
+#bienve >img{
+
+	display:inline-block;
+	height:435px;
+	float:right;
+	width:50%;
+}
+.invitacion{
+	font-size: 25px;
+	margin:0;
+	padding-top:35px;
+}
+
+#tBien{
+	margin-right:50%;
+	text-align: center;
+	font-family: 'Mogra', cursive; 
+	
+}
+#tBien > img.prod{
+	display:inline-block;
+	width: 100px;
+	height:50px;
+}
+.logos{
+	height:100px;
+	width:80px;
+}
+
+.limitar{
+	clear:both;
+}
+#inv{
+	display:inline-block;
+	padding:20px;
+	background-color:grey;
+	color: white;
+}
+#contacto{
+	position:fixed;
+	left:0;
+	top:250px;
+	z-index:2000;	
+}
+#contacto ul{
+	list-style: none;
+	padding:0;
+}
+#contacto > ul >  li  > a{
+	display:inline-block;
+	color:white;
+	background-color: black;
+	padding:10px 15px;
+	text-decoration: none;
+}
+#contacto > ul >  li  > a:hover{
+	background-color: #fff;
+	color: black;
+	padding: 10px 25px;
+}
+
+
+#sPerfil{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#perfil{
+	text-align: center;
+}
+#perfil > img{
+	width: 300px;
+}
+
+
+
