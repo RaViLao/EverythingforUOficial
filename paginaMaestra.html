@@ -7,45 +7,72 @@
 	<title>Efu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
 	<link href="Estilos/bootstrap.min.css" rel="stylesheet"/>
 	<link href="Estilos/EfuMaestra.css" rel="stylesheet"/>
+	<link rel="stylesheet"  href="Estilos/IconosContactos.css">
 	<script src="JavaScript/jquery-3.2.1.min.js"></script>
 	<script src="JavaScript/bootstrap.min.js"></script>
+	<script src="JavaScript/libreria.js"></script>
+	<script src="JavaScript/Eventos.js"></script>
+
 
 </head>
 <body>
-<header id="cabecera">
-	<div class="container-fluid row">
-		<section id="logo" class="col-xs-4 col-sm-4 col-md-2"> 
-			<img src="Image/logoEFU.png"/>
-		</section>
-		<section id="search" class="col-xs-8 cold-sm-8 col-md-7">
-			<Input id="buscador" type="text"/>
-			<button class="btn btn-primary">Buscar</button>
-		</section>
-		<section id="logUn" class="col-xs-12 col-sm-12 col-md-3 "> 
-		<ul>
-			<li><a href="CrearCuenta.html"><img src="registro.img"/>Registrate </a></li>
-			<li><a href="IniciaSesion.html"><img src="login.img"/>Inicia Sesion</a></li>
-		</ul>
-		</section>
-		</div>	
-</header>
+<header>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div id="conte" class="container">
+			<div class="navbar-header">
+			<a href="#"><img id="logito" src="Image/logoEfu.png"/> </a>			
 
-<div class="container">
-	<div id="cat" class="row">
-		<section id="bp" class="col-xs-12 col-sm-12 col-md-2">Busca por:</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Ingeniería</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Empresariales</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Derecho</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Humanidades</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Salud</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Gastronomia</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Educacion</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Sociales</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Arquitectura</section>
-		<section class="col-xs-12 col-sm-12 col-md-1">Otros</section>
-	</div>	
+				<form action="" class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input ;" id="ya" class="form-control" type="text" placeholder="Buscar"></input>
+					</div>
+					<button type="submit" class="btn btn-primary">
+					<span class="glyphicon glyphicon-search"></span></button>
+					<a class="cent" href="CrearCuenta.html">
+						<img class="logo" src="Image/signed.png"/>Registrate</a>
+					<a class="cent" href="#"> 
+						<img class="logo" src="Image/login.png"/> Inicia Sesión</a>
+				</form>				
+			</div>	
+		</div>
+	</nav>
+</header>
+<div id="cuerpo">
+<div class="container navegador">	
+		<div class="navbar-header">
+				<button id="bi" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+					<span class=sr-only> Desplegar / Ocultar Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"> Buscar por: </a>
+			</div>
+		</button><!--Menu desplegabble -->
+		<div class="collapse navbar-collapse" id="navegacion-fm">
+				<ul class="nav navbar-nav" id="categorias">
+					<li><a href="#" >Ingenieria</a></li>
+					<li><a href="#" > Empresariales</a></li>
+					<li><a href="#" > Derecho</a></li>
+					<li><a href="#" > Humanidades</a></li>
+					<li><a href="#" > Salud</a></li>
+					<li><a href="#" > Gastronomía</a</li>
+					<li><a href="#" > Educación</a></li>
+					<li><a href="#" > Sociales</a></li>
+					<li><a href="#" > Arquitectura</a></li>
+					<li><a href="#" > Otros</a></li>
+					
+
+				</ul>
+				
+			</div>
+
+
 </div>
 <div class="contenedor container">
 	Aquí va a ir el contenido Principal
