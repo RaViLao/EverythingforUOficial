@@ -9,6 +9,7 @@
 #categorias > li a, .navegador a {
 	color:white;
 	border-bottom: 1px solid black;
+
 }
 #categorias > li a:hover{
 	background-color: #f2f2f2;
@@ -43,10 +44,7 @@ input#ya{
 .limitar{
 	background-color: #333;
 }
-.container-fluid{
-	min-height: 50px;
-	background-color: red;
-}
+
 .cent, .cent:hover{
 	padding:15px;
 	color:white;
@@ -100,7 +98,7 @@ input#ya{
 	font-family: 'Mogra', cursive; 
 	
 }
-#tBien > img.prod{
+#tBien  img.prod{
 	display:inline-block;
 	width: 100px;
 	height:50px;
@@ -153,6 +151,12 @@ input#ya{
 }
 #perfil > img{
 	width: 300px;
+}
+.sticky{
+	position:fixed;
+	top:0;
+	left:0;
+	background:tomato;
 }
 
 

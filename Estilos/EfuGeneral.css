@@ -1,3 +1,33 @@
+/*------------------------------------Página Principal-------------------------------------------------------------------------------------*/
+.container-fluid{
+	min-height: 50px;
+	background-color: #eaecef;
+}
+.productos{
+	
+	background-color: #b8eeef;
+	padding:10px 20px;
+}
+ .prod img{
+ 	width:100%;
+}
+
+.prod a:hover{
+	color:black;
+
+}
+#prodPr div{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#publicidad{
+	width:100%;
+}
+.al{
+	margin-bottom: -10px;
+	background-color: tomato;
+}
+
 
 /*Crear Cuenta*/
 

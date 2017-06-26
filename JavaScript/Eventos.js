@@ -41,15 +41,39 @@ $(document).ready(function(){
 			);			
 	});
 
-	$("button#bi").click(function(){
-		$("#navegacion-fm").css("display", "block");
+	var publicidad = new Array (
+		'image/publi1.png', 
+		'image/publi2.jpg',
+		'image/publi3.jpg',
+		'image/publi4.gif'
+		);
 
-	});
+		cargarPubli();
 
+		function cargarPubli(){
+			var index=Math.floor((Math.random()*publicidad.length));
+			$("#publicidad").attr("src", publicidad[index]);
 
-	$("#PRizq").mouseout(function(){
-		$$("#navegacion-fm").css("display", "none");
-	});
+		}
+		setInterval(function(){			
+			cargarPubli();
+        }, 18000
+        );	
+		var b= $("#contacto").offset().top;
+    	$(window).scroll(function(){
+    	var a= $(window).scrollTop();
+    	
+    	 $(".p").text(a +" "+ b);
+    	 
+    	 if(a >=b){
+    	 	$("#contacto").css("top", "0");
+    	 	
+    	 }else{
+    	 	$("#contacto").css("top","250px");
+    	 }
+
+    });
+    
 
 });
 
