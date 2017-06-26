@@ -4,7 +4,7 @@ function contra() {
     return false;
   }
   else{
-  	document.getElementById('demo').innerHTML = "";
+  	document.getElementById('demo').innerHTML = "<br />";
   	return false;
   }
 }
