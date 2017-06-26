@@ -326,6 +326,13 @@ strong{
 	margin-left: 70%;
 	text-align: right;
 }
+.main{
+	text-align: center;
+}
+
+.main>section{
+	margin-top: 10px;
+}
 
 /*PerfilUsuario---------------------------------------------------------------------------------------------------------------*/
 #sPerfil{
