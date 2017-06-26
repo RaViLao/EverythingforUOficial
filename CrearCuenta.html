@@ -1,172 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <title>Everyhing For U</title>
-    <link href="Estilos/EstilosPrin.css" rel="stylesheet" />
+
+	<meta charset="utf-8" />
+	<title>Cuenta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+	<link href="Estilos/bootstrap.min.css" rel="stylesheet"/>
+
+	<link href="Estilos/EfuMaestra.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="Estilos/EfuGeneral.css">
+
+	<link rel="stylesheet"  href="Estilos/IconosContactos.css">
+
+	<script src="JavaScript/jquery-3.2.1.min.js"></script>
+	<script src="JavaScript/bootstrap.min.js"></script>
+	<script src="JavaScript/libreria.js"></script>
+	<script src="JavaScript/Eventos.js"></script>
 </head>
 <body>
-    <div id="contenedor">
-        <header id="Cabecera">
-			<section id="Izq">Logo</section>
-			<section id="Derecha">
-				<div id="logReg">
-				
-					<section id="unete">
-					
-					</section>			
-					<section id="entrar">
-					
-					</section>
-				
-					<div class="limitar"></div>
-				
-				</div>
-			</section>
-			<section id="Centro">
-				
-			</section>
-			<div class="limitar"></div>
-		</header> 
-			<div id="crearCuenta">
-			<div id="izq">
-				<div id="convencer">
-					<h2>Everyhing For You, es una comunidad donde podrás encontrar todo lo que necesitas.</h2>
-					<h1>ÚNETE YAAA!!</h2>
-					<img src="http://www.ventadlibros.com/imagesalta/S0851133.jpg" />
-				</div>			
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div id="conte" class="container">
+				<div class="navbar-header">
+				<a href="index.html"><img id="logito" src="Image/logoEfu.png"/> </a>			
+				</div>	
 			</div>
-			<div id="dere">
-				<h1>Crear cuenta</h1>
-				<ul>
-					<li>
-						Nombres <br />
-						<input type="text" class="cajita" placeholder="Nombres completos" />
-					</li>
-					<li>
-						Apellidos <br />
-						<input type="text" class="cajita" placeholder="Apellidos completos" />
-					</li>
-					<li>
-						Fecha de nacimiento <br />
-						<select>
-							<option>Dia</option>
-							<option>01</option>
-							<option>02</option>
-							<option>03</option>
-							<option>04</option>
-							<option>05</option>
-							<option>06</option>
-							<option>07</option>
-							<option>08</option>
-							<option>09</option>
-							<option>10</option>
-							<option>11</option>
-							<option>12</option>
-							<option>13</option>
-							<option>14</option>
-							<option>15</option>
-							<option>16</option>
-							<option>17</option>						
-							<option>18</option>
-							<option>19</option>
-							<option>20</option>
-							<option>21</option>
-							<option>22</option>
-							<option>23</option>
-							<option>24</option>
-							<option>25</option>
-							<option>26</option>
-							<option>27</option>
-							<option>28</option>
-							<option>29</option>						
-							<option>30</option>
-							<option>31</option>
-						</select>
-						<select>
-							<option>Mes</option>
-							<option>Enero</option>						
-							<option>Febrero</option>
-							<option>Marzo</option>						
-							<option>Abril</option>
-							<option>Mayo</option>
-							<option>Junio</option>
-							<option>Julio</option>
-							<option>Agosto</option>						
-							<option>Septiembre</option>
-							<option>Octubre</option>
-							<option>Noviembre</option>
-							<option>Diciembre</option>
-						</select>
-						<select>
-							<option>Año</option>
-							<option>2017</option>
-							<option>2016</option>
-							<option>2015</option>
-							<option>2014</option>
-							<option>2013</option>
-							<option>2012</option>
-							<option>2011</option>
-							<option>2010</option>
-							<option>2009</option>
-							<option>2008</option>
-							<option>2007</option>
-							<option>2006</option>
-							<option>2005</option>
-							<option>2004</option>
-							<option>2003</option>
-							<option>2002</option>
-							<option>2001</option>
-							<option>2000</option>
-							<option>1999</option>						
-							<option>1998</option>
-							<option>1997</option>
-						</select>
-					</li>
-					<li>
-						Sexo <br />
-						<input type="radio" name="opcion"> M
-						<input type="radio" name="opcion"> F
-					</li>
-					<li>
-						Universidad <br />
-						<select>
-							<option>Universidad</option>
-							<option>San Igacio de Loyola</option>
-							<option>Nacional San Marcos</option>
-							<option>Agraria La Molina</option>
-							<option>Nacional de Ingenieria</option>
-							<option>Lima</option>
-							<option>Cientifica del Sur</option>
-						</select>
-					</li>
-					<li>
-						Telefono <br />
-						<input type="text" class="cajita" placeholder="Número" />
-					</li>
-					<li>
-						Correo electrónico <br />
-						<input type="email" class="cajita" placeholder="nombre@something.com" />
-					</li>
-					<li>
-						Crear contraseña <br />
-						<input type="password" class="cajita" placeholder="contraseña" />
-					</li>
-					<li>
-						Confirmar contraseña <br />
-						<input type="password" class="cajita" placeholder="confirmar contraseña" />
-					</li>
-					<li style="font-size: 14px">
-						<input type="checkbox" name="genero">Acepto los <a href="">terminos</a>
-					</li>              
-				</ul>
-			<button type="submit" class="boton"><strong>Aceptar</strong></button>
-			</div>
-		<div class="limitar" style="padding: 5px;"></div>
+		</nav>
+	</header>
+
+	<div id="cuerpo"> 
+		<div class="container">
+
+	        <div class="col-sm-6 container-izq" > 
+	        	<div class="row">
+		            <div class="texto">
+		                <div class="col-sm-12" >
+		                  <h1><strong>Crear Cuenta</strong> </h1>
+		                </div>
+		            </div>
+		        </div>
+
+	            <div class="row caja">
+                    <p style="text-align: center; font-size: 1.2em;">Por favor ingrese sus datos personales</p>
+                    <div class="caja-ingreso">
+                      <form role="form" action="" method="post" class="datos-entrada">
+	                    <div>
+	                        <div class="col-sm-6 form-group">
+	                        	<p>Nombres</p>
+	                            <input type="text" placeholder="Nombres..." class="form-control">
+	                        </div>
+	                        <div class="col-sm-6 form-group">
+	                        	<p>Apellidos</p>
+	                            <input type="text" placeholder="Apellidos..." class="form-control">
+	                        </div>
+	                    </div>
+	                    <div class="col-sm-6 form-group">
+                        	<p>Fecha de Nacimiento</p>
+                            <select>
+								<option>Dia</option>
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+								<option>15</option>
+								<option>16</option>
+								<option>17</option>						
+								<option>18</option>
+								<option>19</option>
+								<option>20</option>
+								<option>21</option>
+								<option>22</option>
+								<option>23</option>
+								<option>24</option>
+								<option>25</option>
+								<option>26</option>
+								<option>27</option>
+								<option>28</option>
+								<option>29</option>						
+								<option>30</option>
+								<option>31</option>
+							</select>
+							<select>
+								<option>Mes</option>
+								<option>Enero</option>						
+								<option>Febrero</option>
+								<option>Marzo</option>						
+								<option>Abril</option>
+								<option>Mayo</option>
+								<option>Junio</option>
+								<option>Julio</option>
+								<option>Agosto</option>						
+								<option>Septiembre</option>
+								<option>Octubre</option>
+								<option>Noviembre</option>
+								<option>Diciembre</option>
+							</select>
+							<select>
+								<option>Año</option>
+								<option>2017</option>
+								<option>2016</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+								<option>2008</option>
+								<option>2007</option>
+								<option>2006</option>
+								<option>2005</option>
+								<option>2004</option>
+								<option>2003</option>
+								<option>2002</option>
+								<option>2001</option>
+								<option>2000</option>
+								<option>1999</option>						
+								<option>1998</option>
+								<option>1997</option>
+							</select>
+                        </div>
+                        <div class="col-sm-6 form-group opcion-sexo">
+                        	<p>Sexo</p>
+							<input type="radio" name="opcion"> <span>M</span>
+							<input type="radio" name="opcion"> <span>F</span>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-sm-6 form-group">
+	                        <p>Universidad</p>
+	                        <select>
+								<option>Universidad</option>
+								<option>San Igacio de Loyola</option>
+								<option>Nacional San Marcos</option>
+								<option>Agraria La Molina</option>
+								<option>Nacional de Ingenieria</option>
+								<option>Lima</option>
+								<option>Cientifica del Sur</option>
+							</select>
+	                        </div>
+	                    <div class="col-sm-6 form-group">
+	                        <p>País</p>
+	                         <select>
+								<option>País</option>
+								<option>Canada</option>
+								<option>El Salvador</option>
+								<option>Estados Unidos</option>
+								<option>Mexico</option>
+								<option>Perú</option>
+								<option>Turkia</option>
+								<option>Venzuela</option>
+							</select>
+	                    </div>
+                        <div class="col-sm-6 form-group">
+                        	<p>Correo</p>
+                            <input type="text" placeholder="Email..." class="form-control">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                        	<p>Teléfono</p>
+                            <input type="text" placeholder="Teléfono..." class="form-control">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                        	<p>Contraseña</p>
+                            <input type="password" placeholder="Contraseña..." class="form-control">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                        	<p>Confirmar Contraseña</p>
+                            <input type="password" placeholder="Confirmar Contraseña..." class="form-control">
+                        </div>
+                        <input type="checkbox" class="opcion" name="condicion"><span id="condicion"> Acepto los </span><a href="">términos</a>
+                      </form>
+                       <a href="Index.html"><button type="submit" class="boton">Registrarme</button></a>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="col-sm-6 container-der">
+	        	<div id="costado">
+	        		<div id="convencer">
+						<h2 class="texto">Everyhing For U, es una comunidad donde podrás encontrar todo lo que necesitas.</h2>
+						<h1 class="texto">ÚNETE YAAA!!</h2>
+						<img src="http://www.maestriaenproyectosparaeldesarrollourbano.com/mpdu/images/Angela/Septiembre/Eventos/libro%20arquitectura%20sustentable.jpg" />
+					</div>	
+		            <div class="row">
+                <div class="col-sm-12">
+                    <div class="red-social" >
+                      <a class="social face" target="_blank" href="https://www.facebook.com/login.php?login_attempt=1&lwv=110">Facebook</a>
+                      <a class="social insta" target="_blank" href="https://www.instagram.com/?hl=es">Instagram</a>
+                      <a class="social goog" target="_blank" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Google +</a>
+                    </div>
+                </div>
+            </div>
+	        	</div>
+	        </div>
 		</div>
-	<footer class="limitar" id="piefin">
-		<a href="Contactanos.html">Contactanos</a>
-	</footer>
 	</div>
+
+	<footer id="piefin" class="container-fluid">
+		&copy Contactanos
+	</footer>
 </body>
 </html>

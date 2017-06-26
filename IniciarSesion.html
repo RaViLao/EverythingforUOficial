@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <title>Everything For U|Iniciar Sesion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link href="Estilos/bootstrap.min.css" rel="stylesheet"/>
+
+    <link href="Estilos/EfuMaestra.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="Estilos/EfuGeneral.css">
+
+    <link rel="stylesheet"  href="Estilos/IconosContactos.css">
+
+    <script src="JavaScript/jquery-3.2.1.min.js"></script>
+    <script src="JavaScript/bootstrap.min.js"></script>
+    <script src="JavaScript/libreria.js"></script>
+    <script src="JavaScript/Eventos.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div id="conte" class="container">
+                <div class="navbar-header">
+                <a href="index.html"><img id="logito" src="Image/logoEfu.png"/> </a>            
+                </div>  
+            </div>
+        </nav>
+    </header>
+
+    <div id="cuerpo"> 
+        <div class="row">
+          <div class="col-sm-12 titulo" >
+              <h1><strong>Iniciar Sesión</strong></h1>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 " >
+                <div class="caja" id="iniciar">
+                    <form role="form" action="" method="post" class="">
+                        <div class="form-group">
+                            <p>Usuario o Correo</p>
+                            <input type="text" name="form-username" placeholder="Usuario o Correo..." class="form-control" id="form-username">
+                        </div>
+                        <div class="form-group">
+                            <p>Contraseña</p>
+                            <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
+                        </div>
+                    </form>
+                    <a href="index.html"><button type="submit" class="boton">Entrar</button></a>
+                </div>   
+                
+                <span class="link-opc"><a href="RecuperarContraseñas.html">Olvide mi contraseña</a></span>
+                <span class="link-opc" ><a href="CrearCuenta.html">Crear Cuenta</a></span>
+
+                <div class="col-sm-12 redes">
+                    <div class="red-so face"><a target="_blank" href="https://www.facebook.com/login.php?login_attempt=1&lwv=110">Facebook</a></div>
+                    <div class="red-so insta"><a target="_blank" href="https://www.instagram.com/?hl=es">Instagram</a></div>            
+                    <div class="red-so goog"><a target="_blank" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Google +</a></div>
+                </div>   
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    <footer id="piefin" class="container-fluid">
+        &copy Contactanos
+    </footer>
+</body>
+</html>
