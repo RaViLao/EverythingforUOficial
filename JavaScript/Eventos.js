@@ -63,14 +63,16 @@ $(document).ready(function(){
     	$(window).scroll(function(){
     	var a= $(window).scrollTop();
     	
-    	 $(".p").text(a +" "+ b);
+    	 
     	 
     	 if(a >=b){
     	 	$("#contacto").css("top", "0");
     	 	
     	 }else{
     	 	$("#contacto").css("top","250px");
-    	 }
+    	 	}
+
+    	
 
     });
     

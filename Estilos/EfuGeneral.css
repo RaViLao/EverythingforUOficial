@@ -27,6 +27,23 @@
 	margin-bottom: -10px;
 	background-color: tomato;
 }
+.table, #comunity{
+	width:100%;
+	background-color:#f9fdff;
+	padding:10px;
+}
+.compra{
+-webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  filter: shadow(color=#999999, direction=135, strength=2);
+  background:#e5b87e;
+  padding:15px;
+  text-align: center;
+}
+#shop{
+	display:inline-block;
+	margin-left:60%;
+}
 
 
 /*Crear Cuenta*/
