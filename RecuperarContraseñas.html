@@ -1,71 +1,114 @@
-<!DOCTYPE html>
-<html>
+﻿<!doctype html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Everyhing For U</title>
+    <title>Efu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link href="Estilos/bootstrap.min.css" rel="stylesheet" />
+    <link href="Estilos/EfuMaestra.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Estilos/IconosContactos.css">
+    <script src="JavaScript/jquery-3.2.1.min.js"></script>
+    <script src="JavaScript/bootstrap.min.js"></script>
+    <script src="JavaScript/libreria.js"></script>
+    <script src="JavaScript/Eventos.js"></script>
     <link href="Estilos/EfuGeneral.css" rel="stylesheet" />
     <script type="text/javascript" src="JavaScript/RecuperarContra.js"></script>
 </head>
 <body>
-    <div id="contenedor">
-        <header id="Cabecera">
-		<div id="IzqP">
-		<section id="IzqLogo"><img id="log" src="logoO.jpg" /> </section>
-		<section id="IzqName"><h1>Everything for U</h1></section>
-		<div class="limitar"></div>
-		</div>
-		<div id="DerP">
-		</div>
-        
-		
-		
-        </header>
-        <div id="back"> 
-
-
-			<div id="todo"> 
-				<div id="titulo1">
-				<label id="title">¿No puedes iniciar sesion?</label>
-				</div>
-			
-				
-			<p id="para">Responde a lo siguiente para verificar que esta cuenta es tuya.</p>
-				<div id="local">
-				<div id="imagen">
-					<div id="ima">
-					<img  src="http://s04.s3c.es/imag/_v0/439x439/3/d/8/100x100_perfil-medinilla-firma.jpg">
-					</div>
-					<div id="ima2">
-					<h3 id="Nombre">Nombre:</h3>
-					<p>Cecilia conde</p>
-					<h3>Correo:</h3>
-					<p>cecilia.conde@gmail.com</p>
-					</div>
-				</div>
-				<br />
-					<div id="Parra">
-					<p>Escribe la última contraseña que recuerdes</p>
-					</div>
-					
-					<br/ >
-					<input type="password" id="input" placeholder="***********">
-					<br />
-					<div id="boto">
-						<input onclick="contra()" id="submit" type="submit">
-					</div>
-					<p id="demo"></p>
-					
-					
-				</div>
-			</div>
-		
-
-		</div>
-        <footer>
-            <a href="">Privacidad</a>    
-            <a href="">Condiciones de Uso</a>
-            <a href="">Ayuda</a>
-        </footer>
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div id="conte" class="container">
+                <div class="navbar-header">
+                    <a href="#"><img id="logito" src="Image/logoEfu.png" /> </a>
+                    <form action="" class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input ;" id="ya" class="form-control" type="text" placeholder="Buscar"></input>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        <a class="cent" href="CrearCuenta.html">
+                            <img class="logo" src="Image/signed.png" />Registrate
+                        </a>
+                        <a class="cent" href="#">
+                            <img class="logo" src="Image/login.png" /> Inicia Sesión
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="cuerpo">
+        <div class="container navegador">
+            <div class="navbar-header">
+                <button id="bi" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+                    <span class=sr-only> Desplegar / Ocultar Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"> Buscar por: </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navegacion-fm">
+                <ul class="nav navbar-nav" id="categorias">
+                    <li><a href="#">Ingenieria</a></li>
+                    <li><a href="#"> Empresariales</a></li>
+                    <li><a href="#"> Derecho</a></li>
+                    <li><a href="#"> Humanidades</a></li>
+                    <li><a href="#"> Salud</a></li>
+                    <li><a href="#"> Gastronomía</a></li>
+                    <li><a href="#"> Educación</a></li>
+                    <li><a href="#"> Sociales</a></li>
+                    <li><a href="#"> Arquitectura</a></li>
+                    <li><a href="#"> Otros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenedor container">
+            <div id="back">
+                <div id="todo">
+                    <div id="titulo1">
+                        <label id="title">¿No puedes iniciar sesion?</label>
+                    </div>
+                    <p id="para">Responde a lo siguiente para verificar que esta cuenta es tuya.</p>
+                    <div id="local">
+                        <div id="imagen">
+                            <div id="ima">
+                                <img src="http://s04.s3c.es/imag/_v0/439x439/3/d/8/100x100_perfil-medinilla-firma.jpg">
+                            </div>
+                            <div id="ima2">
+                                <h3 id="Nombre">Nombre:</h3>
+                                <p>Cecilia conde</p>
+                                <h3>Correo:</h3>
+                                <p>cecilia.conde@gmail.com</p>
+                            </div>
+                        </div>
+                        <br />
+                        <div id="Parra">
+                            <p>Escribe la última contraseña que recuerdes</p>
+                        </div>
+                        <br />
+                        <input type="password" id="input" placeholder="***********">
+                        <p id="demo"></p>
+                        <div id="boto">
+                            <input onclick="contra()" id="submit" type="submit">
+                        </div>
+                        <div id="link">
+                            <div id="li1">
+                                <a href="" >Usar numero de telefono</a>
+                            </div>
+                            <div id="li2">
+                                <a href="" >Ayuda</a>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer id="piefin" class="container-fluid">Footer</footer>
 </body>
 </html>
