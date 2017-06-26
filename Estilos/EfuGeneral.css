@@ -70,7 +70,7 @@
 #local{
 	
     width: 394px;
-    height: 350px;
+    height: 324px;
     margin: auto;
     margin-top: 28px;
     margin-bottom: 10px;
@@ -139,6 +139,27 @@
 }
 #todo{
 	padding-bottom: 4px;
+}
+#para{
+	text-align:center;
+}
+
+#link{
+	margin-top: 10px;
+}
+#li1{
+	float: left;
+	width: 50%;
+}
+#li2{
+	margin-left: 50%;
+	text-align: right;
+}
+#demo{
+	clear: both;
+	color: red;
+	text-align: center;
+	margin-bottom: 0px;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
