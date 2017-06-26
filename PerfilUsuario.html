@@ -4,70 +4,71 @@
 	<title>Efu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	<link href="css/bootstrap.min.css" rel="stylesheet"/>
-	<link href="css/EfuGeneral.css" rel="stylesheet"/>
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link href="Estilos/bootstrap.min.css" rel="stylesheet"/>
+    <link href="Estilos/EfuMaestra.css" rel="stylesheet"/>
+    <link href="Estilos/EfuGeneral.css" rel="stylesheet"/>
+    <link rel="stylesheet"  href="Estilos/IconosContactos.css">
+    <script src="JavaScript/jquery-3.2.1.min.js"></script>
+    <script src="JavaScript/bootstrap.min.js"></script>
+    <script src="JavaScript/libreria.js"></script>
+    <script src="JavaScript/Eventos.js"></script>
 
 </head>
 <body>
-	<header id="cabecera">
-		<div class="container-fluid row">
-			<section id="logo" class="col-xs-4 col-sm-4 col-md-2"> 
-				<img src="Image/logoEFU.png"/>
-			</section>
-			<section id="search" class="col-xs-8 cold-sm-8 col-md-7">
-				<Input id="buscador" type="text"/>
-				<button class="btn btn-primary">Buscar</button>
-			</section>
-			<section id="logUn" class="col-xs-12 col-sm-12 col-md-3 "> 
-			<ul>
-				<li><a href="CrearCuenta.html"><img src="registro.img"/>Registrate </a></li>
-				<li><a href="IniciaSesion.html"><img src="login.img"/>Inicia Sesion</a></li>
-			</ul>
-			</section>
+	<header>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div id="conte" class="container">
+			<div class="navbar-header">
+			<a href="#"><img id="logito" src="Image/logoEfu.png"/> </a>			
+
+				<form action="" class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input ;" id="ya" class="form-control" type="text" placeholder="Buscar"></input>
+					</div>
+					<button type="submit" class="btn btn-primary">
+					<span class="glyphicon glyphicon-search"></span></button>
+					<a class="cent" href="CrearCuenta.html">
+						<img class="logo" src="Image/signed.png"/>Registrate</a>
+					<a class="cent" href="#"> 
+						<img class="logo" src="Image/login.png"/> Inicia Sesión</a>
+				</form>				
 			</div>	
-	</header>
+		</div>
+	</nav>
+</header>
 
-	<div class="container">
-		<div id="cat" class="row">
-			<section id="bp" class="col-xs-12 col-sm-12 col-md-2">Busca por:</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Ingeniería</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Empresariales</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Derecho</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Humanidades</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Salud</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Gastronomia</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Educacion</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Sociales</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Arquitectura</section>
-			<section class="col-xs-12 col-sm-12 col-md-1">Otros</section>
-		</div>	
-	</div>
-	<div id="sPerfil" class="contenedor container">
+
+	<div id="sPerfil" class="contenedor container-fluid">
 		 <div>
+
+		 	<h2 id="sNombre">Hola <span id="sNombreU">nombreusuario</span></h2>
 			<section class="row" id="sform">
-				<div class="col-xs-2 col-md-2 col-sm-1"></div>
-				<div class="col-xs-3 col-md-3 col-sm-10" id="perfil">
-					<img src="http://www.medicinadeaves.com.br/wp-content/uploads/2016/01/avatar-310x310.jpg"/>
-					<p> Nombres Apellidos </p>
-				</div>
-				<div class="col-xs-2 col-md-2 col-sm-1"></div>
-				<div class="col-xs-3 col-md-3 col-sm-10 bg-info" id="sdatos">
-					<br />
-					<p>Correo: <br> name_surname@everythingforu.com</p>
-					<br>
-					<p>Edad: <br> 18</p>
-					<br>
-					<p>Universidad: <br> USIL</p>
-				</div>
-				<div class="col-xs-2 col-md-2 col-sm-1"></div>
+			
+				<div class=" col-xs-12 col-md-2 col-sm-12"></div>
+
+					<div id="sForm" class="row container col-xs-12 col-md-8 col-sm-12" >
+						<div class="col-xs-12 col-md-5 col-sm-12" id="perfil">
+							<img src="http://icon-icons.com/icons2/35/PNG/512/manager_person_man_people_2841.png"/>
+							<br><br>
+							<span><h3> Nombres Apellidos </h3> </span>
+						</div>
+					
+						<div class="col-xs-12 col-md-7 col-sm-12 bg-info" id="sdatos">
+							<br />
+							<p>Correo: <br> name_surname@everythingforu.com</p>
+							<br>
+							<p>Edad: <br> 18</p>
+							<br>
+							<p>Universidad: <br> USIL</p>
+						</div>
+					</div>
+				<div class="col-xs-12 col-md-2 col-sm-12"></div>
 			</section>
 	</div>
-
-        	
-
-    		</div>
+	</div>
 </div>
 
 <footer id="piefin" class="container-fluid">Footer

@@ -326,3 +326,33 @@ strong{
 	margin-left: 70%;
 	text-align: right;
 }
+
+/*PerfilUsuario---------------------------------------------------------------------------------------------------------------*/
+#sPerfil{
+	background-image: url(../Image/Bienvenida.jpg);	
+	min-height: 450px;
+
+}
+
+#sform{
+	margin-top: 20px;
+	
+	padding:30px;
+}
+#sNombre{
+	margin-left: 300px;
+}
+#perfil{
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 400px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+#perfil  img{
+	width: 200px;
+}
+#sdatos{
+	
+}
+
+

@@ -141,23 +141,13 @@ input#ya{
 }
 
 
-#sPerfil{
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-#perfil{
-	text-align: center;
-}
-#perfil > img{
-	width: 300px;
-}
 .sticky{
 	position:fixed;
 	top:0;
 	left:10px;
-	background:tomato;
+	background: tomato;
 }
+
 
 
 
