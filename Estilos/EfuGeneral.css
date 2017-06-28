@@ -1,75 +1,86 @@
 /*------------------------------------Página Principal-------------------------------------------------------------------------------------*/
-.container-fluid{
-	min-height: 50px;
-	background-color: #eaecef;
-}
-.productos{
-	
-	background-color: #b8eeef;
-	padding:10px 20px;
-}
- .prod img{
- 	width:100%;
+.container-fluid {
+    min-height: 50px;
+    background-color: #eaecef;
 }
 
-.prod a:hover{
-	color:black;
+.productos {
+    background-color: #b8eeef;
+    padding: 10px 20px;
+}
 
+.prod img {
+    width: 100%;
 }
-#prodPr div{
-	margin-top: 10px;
-	margin-bottom: 15px;
+
+.prod a:hover {
+    color: black;
 }
-#publicidad{
-	width:100%;
+
+#prodPr div {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
-.al{
-	margin-bottom: -10px;
-	background-color: tomato;
+
+#publicidad {
+    width: 100%;
 }
-.table, #comunity{
-	width:100%;
-	background-color:#f9fdff;
-	padding:10px;
+
+.al {
+    margin-bottom: -10px;
+    background-color: tomato;
 }
-.compra{
--webkit-box-shadow: 2px 2px 5px #999;
-  -moz-box-shadow: 2px 2px 5px #999;
-  filter: shadow(color=#999999, direction=135, strength=2);
-  background:#e5b87e;
-  padding:15px;
-  text-align: center;
+
+.table, #comunity {
+    width: 100%;
+    background-color: #f9fdff;
+    padding: 10px;
 }
-#shop{
-	display:inline-block;
-	margin-left:60%;
+
+.compra {
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    filter: shadow(color=#999999, direction=135, strength=2);
+    background: #e5b87e;
+    padding: 15px;
+    text-align: center;
+}
+
+#shop {
+    display: inline-block;
+    margin-left: 60%;
 }
 
 
 /*Crear Cuenta*/
 .texto {
-	text-align: center;
+    text-align: center;
 }
-.texto h1 {
-	margin-top: 10px;
-}
-.caja{
+
+    .texto h1 {
+        margin-top: 10px;
+    }
+
+.caja {
     padding: 9px 25px 15px 25px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.caja p {
-	color: #fff;
-	font-size: 1em;
-}
+
+    .caja p {
+        color: #fff;
+        font-size: 1em;
+    }
 
 .opcion-sexo > span {
-	color: #fff;
+    color: #fff;
 }
+
 input.opcion {
-	margin-left: 15px;
+    margin-left: 15px;
 }
+
 .boton {
     height: 40px;
     background: #1AAE88;
@@ -81,33 +92,35 @@ input.opcion {
     width: 50%;
     margin-top: 8px;
 }
+
 #condicion {
-	color: #fff;
+    color: #fff;
 }
 
 .container-der {
-	text-align: center;
+    text-align: center;
 }
 
 #costado {
-	width: 85%;
-	margin: auto;
-	padding: 100px 0 100px 0;
+    width: 85%;
+    margin: auto;
+    padding: 100px 0 100px 0;
 }
 
 #convencer > .texto {
-	font-size: 25px;
-	font-family: Segoe Print;
+    font-size: 25px;
+    font-family: Segoe Print;
 }
 
 #convencer > img {
-	width: 20%;
-	border-radius: 10px;
+    width: 20%;
+    border-radius: 10px;
 }
 
 .red-social {
     margin-top: 15px;
 }
+
 .social {
     display: inline-block;
     height: 45px;
@@ -119,10 +132,11 @@ input.opcion {
     color: #fff;
     border-radius: 8px;
 }
-.social:hover, .social:focus, .social:active:focus { 
-    opacity: 0.5; 
-    color: #fff; 
-}
+
+    .social:hover, .social:focus, .social:active:focus {
+        opacity: 0.5;
+        color: #fff;
+    }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -130,236 +144,270 @@ input.opcion {
 
 
 .titulo {
-	text-align: center;
-	padding: 4px;
+    text-align: center;
+    padding: 4px;
 }
-strong{
-	border-bottom: 2px solid #1773ce;
+
+strong {
+    border-bottom: 2px solid #1773ce;
 }
 
 #iniciar {
-	width: 80%;
-	margin: auto;
+    width: 80%;
+    margin: auto;
 }
 
 .redes {
-	margin: 5px 0;
+    margin: 5px 0;
 }
 
 .red-so {
-	padding: 13px;
-	width: 60%;
-	margin: auto;
-	text-align: center;
-	margin-top: 10px;
-	border-radius: 10px;
-	font-size: 1.2em;
-}
-.red-so > a{
-	color: #fff;
-}
-.red-so:hover, .red-so:focus, .red-so:active:focus {
-    opacity: 0.5; 
-    color: #fff; 
+    padding: 13px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
 }
 
-.link-opc > a{
-	color: #1E90FF;
-	margin-left: 50px;
-	font-size: 18px;
+    .red-so > a {
+        color: #fff;
+    }
+
+    .red-so:hover, .red-so:focus, .red-so:active:focus {
+        opacity: 0.5;
+        color: #fff;
+    }
+
+.link-opc > a {
+    color: #1E90FF;
+    margin-left: 50px;
+    font-size: 18px;
 }
+
 .face {
-	background: url(https://creators-images.vice.com/content-images/contentimage/no-slug/8abf28560156b8786c3c9142b8bbfb89.jpg);
+    background: url(https://creators-images.vice.com/content-images/contentimage/no-slug/8abf28560156b8786c3c9142b8bbfb89.jpg);
 }
+
 .insta {
-	background: url(https://www.tuexpertoapps.com/wp-content/uploads/2013/09/instagram-facebook-01.jpg);
+    background: url(https://www.tuexpertoapps.com/wp-content/uploads/2013/09/instagram-facebook-01.jpg);
 }
+
 .goog {
-	background: url(http://blog.verticalresponse.com/wp-content/uploads/2013/03/google-plus-logo-red-620-350.png);
+    background: url(http://blog.verticalresponse.com/wp-content/uploads/2013/03/google-plus-logo-red-620-350.png);
 }
 
 
 /*Recuperar Contrasenia -------------------------------------------------------------------------------------------------------------------------------*/
-#local{
-	
+#local {
     width: 394px;
     height: 324px;
     margin: auto;
     margin-top: 28px;
     margin-bottom: 10px;
     background: rgba(0, 0, 0, 0.5);
-    padding-top:  20px;
+    padding-top: 20px;
     padding-bottom: 0px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 10px;
-
 }
-#input{
+
+#input {
     width: 100%;
-	height:36px;
-	border-radius: 4px;
-	}
-#submit{
-	margin-top: 10px;
-    width: 50%;
-	background-color:#4d90fe;
-	height:36px;
-	border-radius: 4px;
-
-	text-transform: uppercase;
-	text-shadow: none;
-	color: #FFFFFF;
-	font-size: 20px;
-	max-width: 100;
+    height: 36px;
+    border-radius: 4px;
 }
-#submit:hover{
-	background-color: #4CAF50; /* Green */
+
+#submit {
+    margin-top: 10px;
+    width: 50%;
+    background-color: #4d90fe;
+    height: 36px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-shadow: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    max-width: 100;
+}
+
+    #submit:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+
+#titulo1 {
+    text-align: center;
+}
+
+#title {
+    font-size: 36px;
+    border-bottom: 2px solid #1773ce;
+}
+
+<<<<<<< HEAD #imagen {
+    height: 118px;
+}
+
+#ima {
+    float: left;
+    width: 100px;
+}
+
+#ima2 {
+    margin-left: 105px;
+}
+
+#parra {
+    clear: both;
+}
+
+#imagen p, h3 {
+    margin: 0px;
+}
+
+#back {
+    background-image: url(../images/Bienvenida.jpg);
+}
+
+#contenedor {
+}
+
+#todo {
+    padding-bottom: 4px;
+}
+
+#para {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#link {
+    margin-top: 10px;
+    width: 394px;
+    margin: auto;
+    color
+}
+
+#li1 {
+    float: left;
+    width: 50%;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#li2 {
+    margin-left: 50%;
+    text-align: right;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#demo {
+    clear: both;
+    color: red;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#ima2 > h3, #ima2 > p, #Parra {
     color: white;
 }
 
-#titulo1{
-	text-align:center;
+#Parra {
+    font-size: 18px;
 }
-#title{
-	font-size: 36px;
-	border-bottom: 2px solid #1773ce;
-}
-<<<<<<< HEAD
-#imagen{
-	height: 118px;
-}
-#ima{
-	float: left;
-	width: 100px;
-}
-#ima2{
-	margin-left: 105px;
-}
-#parra{
-	clear: both;
-
+/* Categorias     -------------------------------------------------------------------------------------------------------------------------------------*/
+.contenido {
+    text-align: center;
 }
 
-#imagen p, h3{
-	margin: 0px;
+#main1 {
+    width: 70%;
+    margin: auto;
 }
 
-#back{
-	background-image: url(../images/Bienvenida.jpg);
-
+.protos {
+    max-height: 200px;
+    max-width: 200px;
 }
-#contenedor{
-	
+#publicidad1 {
+    max-height: 200px;
+    max-width: 965px;
+    margin-left:-15px;
 }
-#todo{
-	padding-bottom: 4px;
-}
-#para{
-	margin-top: 10px;
-	text-align:center;
-	font-size: 18px;
-}
-
-#link{
-	margin-top: 10px;
-	width: 394px;
-	margin: auto;
-	color
-}
-#li1{
-	float: left;
-	width: 50%;
-	font-size: 18px;
-	text-decoration: none;
-}
-#li2{
-	margin-left: 50%;
-	text-align: right;
-	font-size: 18px;
-	text-decoration: none;
-}
-#demo{
-	clear: both;
-	color: red;
-	text-align: center;
-	margin-bottom: 0px;
-	font-size: 18px;
-}
-#ima2>h3,#ima2>p,#Parra{
-	color: white;
-}
-#Parra{
-	font-size: 18px;
-}
-
-
 /* Descripción del producto-------------------------------------------------------------------------------------------------------------------------------------*/
-#barras{
-	width: 80%;
-	margin: auto;
-	margin-top: 40px;
+#barras {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
 }
 
-#izq{
-	float: left;
-	width: 30%;
-	text-align: center;
+#izq {
+    float: left;
+    width: 30%;
+    text-align: center;
 }
 
-#der{
-	margin-left: 40%;
+#der {
+    margin-left: 40%;
 }
 
-#botones{
-	clear: both;
-}
-#boto{
-	text-align: center;
+#botones {
+    clear: both;
 }
 
-#botonComp{
-	float: left;
-	margin-left: 70%;
-}
-#botonCarr{
-	margin-left: 70%;
-	text-align: right;
-}
-.main{
-	text-align: center;
+#boto {
+    text-align: center;
 }
 
-.main>section{
-	margin-top: 10px;
+#botonComp {
+    float: left;
+    margin-left: 70%;
 }
+
+#botonCarr {
+    margin-left: 70%;
+    text-align: right;
+}
+
+.main {
+    text-align: center;
+}
+
+    .main > section {
+        margin-top: 10px;
+    }
 
 /*PerfilUsuario---------------------------------------------------------------------------------------------------------------*/
-#sPerfil{
-	background-image: url(../Image/Bienvenida.jpg);	
-	min-height: 450px;
-
+#sPerfil {
+    background-image: url(../Image/Bienvenida.jpg);
+    min-height: 450px;
 }
 
-#sform{
-	margin-top: 20px;
-	
-	padding:30px;
-}
-#sNombre{
-	margin-left: 300px;
-}
-#perfil{
-	background: rgba(0, 0, 0, 0.5);
-	min-height: 400px;
-	padding-top: 20px;
-	padding-left: 50px;
-}
-#perfil  img{
-	width: 200px;
-}
-#sdatos{
-	
+#sform {
+    margin-top: 20px;
+    padding: 30px;
 }
 
+#sNombre {
+    margin-left: 300px;
+}
 
+#perfil {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+    #perfil img {
+        width: 200px;
+    }
+
+#sdatos {
+}
