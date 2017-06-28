@@ -389,14 +389,32 @@ strong {
     min-height: 450px;
 }
 
+<<<<<<< HEAD
 #sform {
     margin-top: 20px;
     padding: 30px;
+=======
+#sform{
+	margin-top: 20px;
+	
+	padding:30px;
+}
+#sNombre{
+	margin-left: 300px;
+}
+#perfil{
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 400px;
+	padding-top: 20px;
+	
+	text-align: center;
+>>>>>>> 79933fb269d5df295c6bd9021a0405bd6f346b8e
 }
 
 #sNombre {
     margin-left: 300px;
 }
+<<<<<<< HEAD
 
 #perfil {
     background: rgba(0, 0, 0, 0.5);
@@ -411,3 +429,40 @@ strong {
 
 #sdatos {
 }
+=======
+#sdatos{
+	min-height: 400px;
+	background-color: #6789BA;
+	padding-left: 30px;
+}
+
+#perfil > span{
+	display:block;
+	
+	color:#aeafaf;
+
+}
+#perfil a{
+	text-decoration: none;
+	color:#bbe1ea;
+}
+#perfil  li{
+	list-style: none;
+	margin-left: -50px;
+}
+
+iframes target a
+
+/* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
+.col-md-12{
+	text-align: left;
+	margin-left: 5%;
+	width: 60%;
+}
+#icoEnviar{
+	height:40px;
+}
+#btnEnviar{
+	float:right;
+}
+>>>>>>> 79933fb269d5df295c6bd9021a0405bd6f346b8e
