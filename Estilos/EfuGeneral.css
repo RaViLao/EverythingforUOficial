@@ -353,14 +353,34 @@ strong{
 	background: rgba(0, 0, 0, 0.5);
 	min-height: 400px;
 	padding-top: 20px;
-	padding-left: 50px;
+	
+	text-align: center;
 }
 #perfil  img{
 	width: 200px;
 }
 #sdatos{
-	
+	min-height: 400px;
+	background-color: #6789BA;
+	padding-left: 30px;
 }
+
+#perfil > span{
+	display:block;
+	
+	color:#aeafaf;
+
+}
+#perfil a{
+	text-decoration: none;
+	color:#bbe1ea;
+}
+#perfil  li{
+	list-style: none;
+	margin-left: -50px;
+}
+
+iframes target a
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
 .col-md-12{
