@@ -52,14 +52,21 @@
 }
 
 
-/*Crear Cuenta*/
+/*Crear Cuenta------------------------------------------------------------------------------------------*/
 .texto {
     text-align: center;
+} 
+
+.texto h1 {
+    margin-top: 10px;
+}
+.caja-grand {
+    padding: 9px 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-    .texto h1 {
-        margin-top: 10px;
-    }
 
 .caja {
     padding: 9px 25px 15px 25px;
@@ -68,10 +75,10 @@
     margin-bottom: 20px;
 }
 
-    .caja p {
-        color: #fff;
-        font-size: 1em;
-    }
+.caja p {
+    color: #fff;
+    font-size: 1em;
+}
 
 .opcion-sexo > span {
     color: #fff;
@@ -91,6 +98,7 @@ input.opcion {
     margin-left: 25%;
     width: 50%;
     margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 #condicion {
@@ -133,10 +141,10 @@ input.opcion {
     border-radius: 8px;
 }
 
-    .social:hover, .social:focus, .social:active:focus {
-        opacity: 0.5;
-        color: #fff;
-    }
+.social:hover, .social:focus, .social:active:focus {
+    opacity: 0.5;
+    color: #fff;
+}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -155,6 +163,7 @@ strong {
 #iniciar {
     width: 80%;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 .redes {
@@ -171,14 +180,14 @@ strong {
     font-size: 1.2em;
 }
 
-    .red-so > a {
-        color: #fff;
-    }
+.red-so > a {
+    color: #fff;
+}
 
-    .red-so:hover, .red-so:focus, .red-so:active:focus {
-        opacity: 0.5;
-        color: #fff;
-    }
+.red-so:hover, .red-so:focus, .red-so:active:focus {
+    opacity: 0.5;
+    color: #fff;
+}
 
 .link-opc > a {
     color: #1E90FF;
@@ -247,7 +256,7 @@ strong {
     border-bottom: 2px solid #1773ce;
 }
 
-<<<<<<< HEAD #imagen {
+ #imagen {
     height: 118px;
 }
 
@@ -389,12 +398,10 @@ strong {
     min-height: 450px;
 }
 
-<<<<<<< HEAD
+
 #sform {
     margin-top: 20px;
     padding: 30px;
-=======
-#sform{
 	margin-top: 20px;
 	
 	padding:30px;
@@ -408,13 +415,11 @@ strong {
 	padding-top: 20px;
 	
 	text-align: center;
->>>>>>> 79933fb269d5df295c6bd9021a0405bd6f346b8e
 }
 
 #sNombre {
     margin-left: 300px;
 }
-<<<<<<< HEAD
 
 #perfil {
     background: rgba(0, 0, 0, 0.5);
@@ -429,7 +434,7 @@ strong {
 
 #sdatos {
 }
-=======
+
 #sdatos{
 	min-height: 400px;
 	background-color: #6789BA;
@@ -451,7 +456,6 @@ strong {
 	margin-left: -50px;
 }
 
-iframes target a
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
 .col-md-12{
@@ -465,4 +469,170 @@ iframes target a
 #btnEnviar{
 	float:right;
 }
->>>>>>> 79933fb269d5df295c6bd9021a0405bd6f346b8e
+
+/*Comprar--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.navegador {
+    background:  #4357ad;
+}
+.oferta {
+    margin-top: 10px;
+    background: #cbd877;
+}
+
+.colo {
+    width: 15%;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 45px;
+}
+
+.titulos, .coment{
+    text-align: center;
+    color: #cc8033;
+    width: 60%;
+    margin: auto;
+}
+.coment {
+    color: #4d4d33;
+}
+
+.carr {
+    border-bottom: 1px solid #64686d;
+    padding-top: 15px;
+}
+.media {
+    border: 1px solid #a9b0ba;
+    padding: 2px;
+}
+.media-left > img {
+    width: 120px;
+    height: 140px;
+}
+
+.cancelar-compra {
+    margin-left: 80%;
+    cursor: pointer;
+    background: #acc3e5;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.textito {
+    border-bottom: none;
+}
+
+.resumen-compra {
+    margin-top: 120px;
+    border: 1px solid #b5b7b5;
+    padding: 12px;
+}
+
+.compra-resum {
+    border-bottom: 1px solid #989997;
+    padding: 10px; 
+}
+.cost-envi, .resu{
+    padding-left: 30%;
+    color: black;
+    border-bottom: none;
+}
+.cost-envia, .cost-envio {
+    border-bottom: none;
+    font-size: 20px;
+}
+.cost-envia {
+    padding-left: 30%;
+}
+.cost-envio {
+    padding-left: 24%;
+}
+.resu {
+    padding-left: 38%;
+}
+
+.esconde {
+    font-size: 18px;
+    border-bottom: 1px solid #888988;
+}
+
+.calcular, .comprar {
+    margin-left: 10%;
+    height: 35px;
+    width: 80%;
+    font-size: 18px;
+    background: none;
+    color: #525452;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.codi {
+    margin-top: 17px;
+}
+
+.total {
+    padding-left: 51%;
+}
+
+.total-compra {
+    padding: 10px;
+}
+
+.comprar {
+    background: #f79a18;
+}
+
+#seguro {
+    text-align: center;
+}
+
+#seguro > img {
+    width: 80%;
+}
+
+#segu {
+    color: #117a19;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.llamar {
+    width: 35px;
+    height: 32px;
+}
+
+.compra-inicio {
+    text-align: center;
+    font-size: 20px;
+}
+
+.iniciar {
+
+    width: 80%;
+    margin: auto;    
+    margin-bottom: 30px;
+}
+
+.caja-inic-comp {
+    padding: 9px 25px 10px 25px;
+    background: #797e87;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.ayudar, .ayudare{
+    color: #093082;
+    margin-left: 20px;
+}
+.ayudare {
+    margin-left: 110px;
+}
+
+.entrar-detall {
+    background: #1955b5;
+    color: #fff;
+}
