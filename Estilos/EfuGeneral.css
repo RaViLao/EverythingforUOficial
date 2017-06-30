@@ -401,40 +401,35 @@ strong {
 #sform {
     
     padding: 30px;
-	
+    margin-top: 20px;
+    padding:30px;
+}
+#sNombre{
+    margin-left: 300px;
 }
 
 #perfil{
-	background: rgba(0, 0, 0, 0.5);
-	min-height: 400px;
-	padding-top: 20px;
-	
-	text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    padding-top: 20px;
+    
+    text-align: center;
 }
 
 #sNombre {
     margin-left: 300px;
 }
 
-#perfil {
-    background: rgba(0, 0, 0, 0.5);
-    min-height: 400px;
-    padding-top: 20px;
-    
-}
 
 #perfil img {
     width: 180px;
 }
 
-#sdatos {
-}
-
 #sdatos{
+
 	min-height: 400px;
 	color:#556677;
 	padding-left: 30px;
-    
 
 }
 
@@ -458,18 +453,33 @@ strong {
 
 }
 
+#btnsperfil{
+    margin-top: 20px;
+}
+
+#perfil > span{
+    display:block;
+    
+    color:#aeafaf;
+}
+
+
 #perfil span h2{
     color:#f1f6f8;
     font-family: fantasy;
     font-size: 36pt;
 }
+
 #perfil a{
 	text-decoration: none;
 	font-weight: bold;
+    text-decoration: none;
+   color:#bbe1ea;
+
 }
 #perfil  li{
-	list-style: none;
-	margin-left: -50px;
+    list-style: none;
+    margin-left: -50px;
 }
 .btnmio{
     margin-top: 40px;
@@ -480,26 +490,29 @@ strong {
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
 .col-md-12{
-	text-align: left;
-	margin-left: 5%;
-	width: 60%;
+    text-align: left;
+    margin-left: 5%;
+    width: 60%;
 }
 #icoEnviar{
-	height:40px;
+    height:40px;
 }
 #btnEnviar{
-	float:right;
+    float:right;
 }
 
 /*Comprar--------------------------------------------------------------------------------------------------------------------------------------------*/
+* {
 
+}
 
 .navegador {
     background:  #4357ad;
 }
 .oferta {
     margin-top: 10px;
-    background: #cbd877;
+    background: #e3f9ee;
+    border: 1px solid #e89209;
 }
 
 .colo {
@@ -654,6 +667,49 @@ strong {
 }
 
 .entrar-detall {
-    background: #1955b5;
+    background: #498ded
+;
     color: #fff;
 }
+
+.contenedor {
+    background: #fcfbf7;
+}
+
+.relac {
+    background: #e5e5e5;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #bfbbbb;
+    padding: 3px;
+}
+.imagen-rela {
+    background: #fff;
+    height: 200px;
+}
+
+.imagen-rela > img{
+    max-width: 99%;
+    max-height: 199px;
+}
+.text-relacionados {
+    padding: 10px 15px 20px 15px;
+}
+
+.text-relacionados > h3 {
+    color: #e03721;
+}
+
+.forma-pa {
+    padding: 12px;
+}
+
+.como-pagar {
+    text-align: center;
+}
+.ima-forma {
+    max-width: : 40%;
+    height: 70px;
+    margin-bottom: 0;
+}
+
