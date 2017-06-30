@@ -398,17 +398,12 @@ strong {
     min-height: 450px;
 }
 
-
 #sform {
-    margin-top: 20px;
+    
     padding: 30px;
-	margin-top: 20px;
 	
-	padding:30px;
 }
-#sNombre{
-	margin-left: 300px;
-}
+
 #perfil{
 	background: rgba(0, 0, 0, 0.5);
 	min-height: 400px;
@@ -425,36 +420,62 @@ strong {
     background: rgba(0, 0, 0, 0.5);
     min-height: 400px;
     padding-top: 20px;
-    padding-left: 50px;
+    
 }
 
-    #perfil img {
-        width: 200px;
-    }
+#perfil img {
+    width: 180px;
+}
 
 #sdatos {
 }
 
 #sdatos{
 	min-height: 400px;
-	background-color: #6789BA;
+	color:#556677;
 	padding-left: 30px;
+    
+
+}
+
+#sdatos > h4{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#sdatos > h3{
+    font-family: cursive;
+    margin-left: 30px;
 }
 
 #perfil > span{
 	display:block;
-	
+	border-radius: 30px;
 	color:#aeafaf;
+    width: 200px;
+    margin:auto;
+    font: bold oblique 300% sans-serif; 
 
+}
+
+#perfil span h2{
+    color:#f1f6f8;
+    font-family: fantasy;
+    font-size: 36pt;
 }
 #perfil a{
 	text-decoration: none;
-	color:#bbe1ea;
+	font-weight: bold;
 }
 #perfil  li{
 	list-style: none;
 	margin-left: -50px;
 }
+.btnmio{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
 
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
