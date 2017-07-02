@@ -1,6 +1,6 @@
 $(document).ready(function(){
 		
-	$("#bienve").ready(function(){
+	$("#BienveP").ready(function(){
 		var Images = new Array(
 			'image/universitarios.png',
 			'image/universitarios2.png',
@@ -75,6 +75,44 @@ $(document).ready(function(){
     	
 
     });
+
+   	$(".comprar").click(function(){
+   		
+   		var usuario = $("#form-username");
+   		var contra = $("#form-password");
+   		var name = ['RaViLao', 'jorge', 'july', 'angelfox'];
+   		var pass =['paralelepipedo', 'salas', 'quispe', 'curi'];
+
+   		var n= false;
+   		var index=0;
+alert(name[index] +  name.length);
+
+   		while(n==false & index < name.length){
+   			if(usuario==name[index]){
+   				alert(name[index]);
+   				if(contra==pass[index]){
+   					n=true;
+   				}
+   			}
+   			else{
+   				index++;
+   				alert(name[index]);
+   			}
+   		}
+
+   		if(n==true){
+   			$("#comprar-pro").css("display:none");
+   			$(".click").css("display", "block");
+   			$(".username").text(usuario);
+   		}else{
+   			usuario.text("");
+   			contra.text("");
+   			$("#form-username").css("placeholder", "Error")
+   			$("#form-password").css("placeholder", "Error")
+   		}
+
+
+   	});
     
 
 });

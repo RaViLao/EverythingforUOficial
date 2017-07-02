@@ -1,13 +1,16 @@
 /*------------------------------------Página Principal-------------------------------------------------------------------------------------*/
-.container-fluid {
+#prodPr {
     min-height: 50px;
     background-color: #eaecef;
+    
 }
 
 .productos {
     background-color: #b8eeef;
     padding: 10px 20px;
 }
+
+
 
 .prod img {
     width: 100%;
@@ -17,9 +20,12 @@
     color: black;
 }
 
+
+
 #prodPr div {
     margin-top: 10px;
     margin-bottom: 15px;
+
 }
 
 #publicidad {
@@ -690,7 +696,7 @@ h3{
     color: #fff;
 }
 
-.contenedor {
+#cont {
     background: #fcfbf7;
 }
 
@@ -765,4 +771,72 @@ div.col-sm-9 div {
     margin-top: 15px;
 }
 
-/*-----------------------------------------------------------*/
+/*------------Comuniddad------------------------------------*/
+
+
+#comunidad{
+    margin-top:10px;
+    text-align: center;
+    background: #edd6b8;
+    color:white; 
+    
+}
+#comunidad div{
+    background-color:#030f23;
+    margin:20px;
+    padding:30px;
+    border-radius: 48%;
+    
+}
+
+#comunidad img{
+    display:block;
+    width:85%;
+    margin:auto;
+    border-radius: 7px;
+}
+
+#comnts{
+    margin-top:20px ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #f7e7d2;
+
+}
+
+#comnts img{
+    width:30px;
+}
+
+#comnts h6{
+    font-size: 18px;
+}
+
+#cuerpo2{
+    background-image: url('https://bricomanias.com/wp-content/2015/11/pared-de-hormigon.jpg');
+    
+}
+
+hr{
+    border: 1px solid gray;
+}
+.com{
+    padding:0 50px;
+}
+.Publi{
+    padding-left:30px;
+
+}
+
+.Publi > section >img {
+    width:100% !important;
+}
+.click{
+    display:none;
+}
+.com > span, h6{
+    font-weight: bold
+}
+.com > span{
+    text-transform: uppercase
+}
