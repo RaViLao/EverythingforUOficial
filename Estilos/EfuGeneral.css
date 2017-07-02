@@ -401,23 +401,23 @@ strong {
 #sform {
     
     padding: 30px;
+
     margin-top: 20px;
-    padding:30px;
+ 	margin-top: 20px;
+	
+	padding:30px;
+
 }
 #sNombre{
-    margin-left: 300px;
+	margin-left: 300px;
 }
 
 #perfil{
-    background: rgba(0, 0, 0, 0.5);
-    min-height: 400px;
-    padding-top: 20px;
-    
-    text-align: center;
-}
-
-#sNombre {
-    margin-left: 300px;
+	background: rgba(0, 0, 0, 0.5);
+	min-height: 400px;
+	padding-top: 20px;
+	
+	text-align: center;
 }
 
 
@@ -428,10 +428,12 @@ strong {
 #sdatos{
 
 	min-height: 400px;
-	color:#556677;
+	color:#dfdfdf;
+    background-color: #6789BA;
 	padding-left: 30px;
 
 }
+
 
 #sdatos > h4{
     font-family: sans-serif;
@@ -457,13 +459,6 @@ strong {
     margin-top: 20px;
 }
 
-#perfil > span{
-    display:block;
-    
-    color:#aeafaf;
-}
-
-
 #perfil span h2{
     color:#f1f6f8;
     font-family: fantasy;
@@ -472,14 +467,14 @@ strong {
 
 #perfil a{
 	text-decoration: none;
+
 	font-weight: bold;
     text-decoration: none;
    color:#bbe1ea;
-
 }
 #perfil  li{
-    list-style: none;
-    margin-left: -50px;
+	list-style: none;
+	margin-left: -50px;
 }
 .btnmio{
     margin-top: 40px;
@@ -489,16 +484,12 @@ strong {
 
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
-.col-md-12{
-    text-align: left;
-    margin-left: 5%;
-    width: 60%;
-}
+
 #icoEnviar{
-    height:40px;
+	height:40px;
 }
 #btnEnviar{
-    float:right;
+	float:right;
 }
 
 /*Comprar--------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -713,3 +704,38 @@ strong {
     margin-bottom: 0;
 }
 
+/*Navegador Educacion-------------------------------------------------------------------------------------------------------*/
+
+body {
+    position: relative;
+}
+.affix {
+    top: 20px;
+}
+div.col-sm-9 div {
+    min-height: 250px;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 810px) {
+        #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+}
+.teco {
+    background-color:#2196F3;
+    color:#fff;
+    height:220px;
+}
+
+.educa-izq {
+    width: 150px;
+}
+
+.educa-der {
+    width: 330px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/*-----------------------------------------------------------*/
