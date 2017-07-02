@@ -494,13 +494,31 @@ strong {
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
 
-#icoEnviar{
-	height:40px;
+input{
+	height: 40px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+select{
+	height: 40px;
+	width: 50px;
+}
+textarea{
+	width: 80%;
+	height: 100px;
+	margin-bottom: 10px;
 }
 #btnEnviar{
-	float:right;
+	height: 50px;
+	width: 200px;
+	margin-bottom: 10px;
+	background-color: #2341aa;
+	color: white;
+	font-weight: bold;
 }
-
+h3{
+	margin-top: 10px;
+}
 /*Comprar--------------------------------------------------------------------------------------------------------------------------------------------*/
 * {
 
