@@ -394,9 +394,18 @@ strong {
     text-align: center;
 }
 
-    .main > section {
-        margin-top: 10px;
-    }
+.main > section {
+    margin-top: 10px;
+}
+.btn{
+	background: #00509d;
+	color: white;
+	font-weight: 500;
+}
+#contenidoGeneral{
+	background-color: #fff9bc;
+	border-radius: 20px; 
+}
 
 /*PerfilUsuario---------------------------------------------------------------------------------------------------------------*/
 #sPerfil {
