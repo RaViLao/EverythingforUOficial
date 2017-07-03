@@ -33,7 +33,7 @@
 		</nav>
 	</header>
 
-	<div id="cuerpo"> 
+	<div id="cuerpos"> 
 		<div class="container">
 
 	        <div class="col-sm-6 container-izq" > 
@@ -49,7 +49,7 @@
                     <p style="text-align: center; font-size: 1.2em;">Por favor ingrese sus datos personales</p>
                     <div class="caja-ingreso">
                       <form role="form" action="" method="post" class="datos-entrada">
-	                    <div>
+	                    <div class="row">
 	                        <div class="col-sm-6 form-group">
 	                        	<p>Nombres</p>
 	                            <input type="text" placeholder="Nombres..." class="form-control">
@@ -59,152 +59,177 @@
 	                            <input type="text" placeholder="Apellidos..." class="form-control">
 	                        </div>
 	                    </div>
-	                    <div class="col-sm-6 form-group">
-                        	<p>Fecha de Nacimiento</p>
-                            <select>
-								<option>Dia</option>
-								<option>01</option>
-								<option>02</option>
-								<option>03</option>
-								<option>04</option>
-								<option>05</option>
-								<option>06</option>
-								<option>07</option>
-								<option>08</option>
-								<option>09</option>
-								<option>10</option>
-								<option>11</option>
-								<option>12</option>
-								<option>13</option>
-								<option>14</option>
-								<option>15</option>
-								<option>16</option>
-								<option>17</option>						
-								<option>18</option>
-								<option>19</option>
-								<option>20</option>
-								<option>21</option>
-								<option>22</option>
-								<option>23</option>
-								<option>24</option>
-								<option>25</option>
-								<option>26</option>
-								<option>27</option>
-								<option>28</option>
-								<option>29</option>						
-								<option>30</option>
-								<option>31</option>
-							</select>
-							<select>
-								<option>Mes</option>
-								<option>Enero</option>						
-								<option>Febrero</option>
-								<option>Marzo</option>						
-								<option>Abril</option>
-								<option>Mayo</option>
-								<option>Junio</option>
-								<option>Julio</option>
-								<option>Agosto</option>						
-								<option>Septiembre</option>
-								<option>Octubre</option>
-								<option>Noviembre</option>
-								<option>Diciembre</option>
-							</select>
-							<select>
-								<option>Año</option>
-								<option>2017</option>
-								<option>2016</option>
-								<option>2015</option>
-								<option>2014</option>
-								<option>2013</option>
-								<option>2012</option>
-								<option>2011</option>
-								<option>2010</option>
-								<option>2009</option>
-								<option>2008</option>
-								<option>2007</option>
-								<option>2006</option>
-								<option>2005</option>
-								<option>2004</option>
-								<option>2003</option>
-								<option>2002</option>
-								<option>2001</option>
-								<option>2000</option>
-								<option>1999</option>						
-								<option>1998</option>
-								<option>1997</option>
-							</select>
-                        </div>
-                        <div class="col-sm-6 form-group opcion-sexo">
-                        	<p>Sexo</p>
-							<input type="radio" name="opcion"> <span>M</span>
-							<input type="radio" name="opcion"> <span>F</span>
-                        </div>
-                        <div class="clearfix visible-sm-block"></div>
-                        <div class="col-sm-6 form-group">
-	                        <p>Universidad</p>
-	                        <select>
-								<option>Universidad</option>
-								<option>USIL</option>
-								<option>UNMSM</option>
-								<option>Universidad Agraria La Molina</option>
-								<option>UNI</option>
-								<option>ULima</option>
-								<option>Universidad Cientifica del Sur</option>
-							</select>
+	                    <div class="row">
+	                    	<div class="col-sm-6 form-group">
+	                        	<p>Fecha de Nacimiento</p>
+	                        	<div style="width: 27%; float: left; padding-left: 0;">
+		                        	<select class="form-control input-sm" style="width: 100%;" id="sel1">
+										<option>Dia</option>
+										<option>01</option>
+										<option>02</option>
+										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
+										<option>07</option>
+										<option>08</option>
+										<option>09</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<option>17</option>						
+										<option>18</option>
+										<option>19</option>
+										<option>20</option>
+										<option>21</option>
+										<option>22</option>
+										<option>23</option>
+										<option>24</option>
+										<option>25</option>
+										<option>26</option>
+										<option>27</option>
+										<option>28</option>
+										<option>29</option>						
+										<option>30</option>
+										<option>31</option>
+									</select>
+	                        	</div>
+
+								<div style="width: 42%; float: left; padding-left: 0;">
+									<select class="fform-control input-sm" style="width: 100%;" id="sel1">
+										<option>Mes</option>
+										<option>Enero</option>						
+										<option>Febrero</option>
+										<option>Marzo</option>						
+										<option>Abril</option>
+										<option>Mayo</option>
+										<option>Junio</option>
+										<option>Julio</option>
+										<option>Agosto</option>						
+										<option>Septiembre</option>
+										<option>Octubre</option>
+										<option>Noviembre</option>
+										<option>Diciembre</option>
+									</select>
+								</div>
+
+								<div style="width: 31%; float: left; padding-left: 0;">
+									<select class="form-control input-sm" style="width: 100%;" id="sel1">
+										<option>Año</option>
+										<option>2017</option>
+										<option>2016</option>
+										<option>2015</option>
+										<option>2014</option>
+										<option>2013</option>
+										<option>2012</option>
+										<option>2011</option>
+										<option>2010</option>
+										<option>2009</option>
+										<option>2008</option>
+										<option>2007</option>
+										<option>2006</option>
+										<option>2005</option>
+										<option>2004</option>
+										<option>2003</option>
+										<option>2002</option>
+										<option>2001</option>
+										<option>2000</option>
+										<option>1999</option>						
+										<option>1998</option>
+										<option>1997</option>
+									</select>
+								</div>
 	                        </div>
-	                    <div class="col-sm-6 form-group">
-	                        <p>País</p>
-	                         <select>
-								<option>País</option>
-								<option>Canada</option>
-								<option>El Salvador</option>
-								<option>Estados Unidos</option>
-								<option>Mexico</option>
-								<option>Perú</option>
-								<option>Turkia</option>
-								<option>Venzuela</option>
-							</select>
+	                        <div class="col-sm-6 form-group opcion-sexo">
+	                        	<p>Sexo</p>
+								<input type="radio" name="opcion"> <span>M</span>
+								<input type="radio" name="opcion"> <span>F</span>
+	                        </div>
 	                    </div>
-                        <div class="col-sm-6 form-group">
-                        	<p>Correo</p>
-                            <input type="text" placeholder="Email..." class="form-control">
+		                    
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="row">
+                        	
+
+	                        <div class="col-sm-6 form-group">
+		                        <p>Universidad</p>
+		                        <select class="form-control" id="sel1">
+									<option>Universidad</option>
+									<option>USIL</option>
+									<option>UNMSM</option>
+									<option>Universidad Agraria La Molina</option>
+									<option>UNI</option>
+									<option>ULima</option>
+									<option>Universidad Cientifica del Sur</option>
+								</select>
+		                    </div>
+		                    <div class="col-sm-6 form-group">
+		                        <p>País</p>
+		                         <select class="form-control" id="sel1">
+									<option>País</option>
+									<option>Canada</option>
+									<option>El Salvador</option>
+									<option>Estados Unidos</option>
+									<option>Mexico</option>
+									<option>Perú</option>
+									<option>Turkia</option>
+									<option>Venzuela</option>
+								</select>
+		                    </div>
                         </div>
-                        <div class="col-sm-6 form-group">
-                        	<p>Teléfono</p>
-                            <input type="text" placeholder="Teléfono..." class="form-control">
+                        <div class="row">
+                        	<div class="col-sm-6 form-group">
+	                        	<p>Correo</p>
+	                            <input type="text" placeholder="Email..." class="form-control">
+	                        </div>
+	                        <div class="col-sm-6 form-group">
+	                        	<p>Teléfono</p>
+	                            <input type="text" placeholder="Teléfono..." class="form-control">
+	                        </div>
                         </div>
-                        <div class="col-sm-6 form-group">
-                        	<p>Contraseña</p>
-                            <input type="password" placeholder="Contraseña..." class="form-control">
-                        </div>
-                        <div class="col-sm-6 form-group">
-                        	<p>Confirmar Contraseña</p>
-                            <input type="password" placeholder="Confirmar Contraseña..." class="form-control">
-                        </div>
-                        <input type="checkbox" class="opcion" name="condicion"><span id="condicion"> Acepto los </span><a href="">términos</a>
+	                    <div class="row">
+	                    	<div class="col-sm-6 form-group">
+                        		<p>Contraseña</p>
+                            	<input type="password" placeholder="Contraseña..." class="form-control">
+	                        </div>
+	                        <div class="col-sm-6 form-group">
+                        		<p>Confirmar Contraseña</p>
+                            	<input type="password" placeholder="Confirmar Contraseña..." class="form-control">
+	                        </div>
+	                    </div>
+                        <div class="checkbox">
+					     	<label>
+					     		<input type="checkbox" class="opcion" name="condicion"> <span id="condicion"> Acepto los </span> <a href="">términos</a>
+					     	</label>
+					    </div>
                       </form>
                        <a href="Index.html"><button type="submit" class="boton">Registrarme</button></a>
 	                </div>
+
 	            </div>
+
+	        	<div style="text-align: center;"><h4><a href="IniciarSesion.html">Ya tengo una Cuenta</a></h4></div>
 	        </div>
 
 	        <div class="col-sm-6 container-der">
 	        	<div id="costado">
 	        		<div id="convencer">
 						<h2 class="texto">Everyhing For U, es una comunidad donde podrás encontrar todo lo que necesitas.</h2>
-						<h1 class="texto">ÚNETE YAAA!!</h2>
+						<h1 class="texto">ÚNETE YAAA!!</h1>
 						<img src="http://www.maestriaenproyectosparaeldesarrollourbano.com/mpdu/images/Angela/Septiembre/Eventos/libro%20arquitectura%20sustentable.jpg" />
 					</div>	
 		            <div class="row">
-                <div class="col-sm-12">
-                    <div class="red-social" >
-                      <a class="social face" target="_blank" href="https://www.facebook.com/login.php?login_attempt=1&lwv=110">Facebook</a>
-                      <a class="social insta" target="_blank" href="https://www.instagram.com/?hl=es">Instagram</a>
-                      <a class="social goog" target="_blank" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Google +</a>
-                    </div>
-                </div>
-            </div>
+		                <div class="col-sm-12">
+		                    <div class="red-social" >
+		                      <a class="social face" target="_blank" href="https://www.facebook.com/login.php?login_attempt=1&lwv=110">Facebook</a>
+		                      <a class="social goog" target="_blank" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Google +</a>
+		                    </div>
+		                </div>
+            		</div>
 	        	</div>
 	        </div>
 		</div>

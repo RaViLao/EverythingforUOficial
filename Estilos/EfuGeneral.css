@@ -59,6 +59,16 @@
 
 
 /*Crear Cuenta------------------------------------------------------------------------------------------*/
+
+#cuerpos{
+    background-image: url(http://caddeweb.com/wp-content/uploads/2015/07/possibilities_bg3.jpg);
+}
+
+.elegir {
+    min-width: 10px; 
+    float: left;
+}
+
 .texto {
     text-align: center;
 } 
@@ -79,6 +89,8 @@
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-bottom: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
 }
 
 .caja p {
@@ -197,7 +209,7 @@ strong {
 
 .link-opc > a {
     color: #1E90FF;
-    margin-left: 50px;
+    margin-left: 10px;
     font-size: 18px;
 }
 
@@ -423,14 +435,14 @@ strong {
     margin-top: 10px;
 }
 .btn{
-	background-color: #00509d;
-	color: white;
-	font-weight: 500;
-	margin-bottom: 10px;
+    background-color: #00509d;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 #contenidoGeneral{
-	background-color: #fff9bc;
-	border-radius: 20px; 
+    background-color: #fff9bc;
+    border-radius: 20px; 
 }
 
 /*PerfilUsuario---------------------------------------------------------------------------------------------------------------*/
@@ -444,21 +456,21 @@ strong {
     padding: 30px;
 
     margin-top: 20px;
- 	margin-top: 20px;
-	
-	padding:30px;
+    margin-top: 20px;
+    
+    padding:30px;
 
 }
 #sNombre{
-	margin-left: 300px;
+    margin-left: 300px;
 }
 
 #perfil{
-	background: rgba(0, 0, 0, 0.5);
-	min-height: 400px;
-	padding-top: 20px;
-	
-	text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    padding-top: 20px;
+    
+    text-align: center;
     
 }
 
@@ -469,10 +481,10 @@ strong {
 
 #sdatos{
 
-	min-height: 400px;
-	color:#dfdfdf;
+    min-height: 400px;
+    color:#dfdfdf;
     background-color: #6789BA;
-	padding-left: 30px;
+    padding-left: 30px;
 
 }
 
@@ -488,9 +500,9 @@ strong {
 }
 
 #perfil > span{
-	display:block;
-	border-radius: 30px;
-	color:#aeafaf;
+    display:block;
+    border-radius: 30px;
+    color:#aeafaf;
     width: 200px;
     margin:auto;
     font: bold oblique 300% sans-serif; 
@@ -508,15 +520,15 @@ strong {
 }
 
 #perfil a{
-	text-decoration: none;
+    text-decoration: none;
 
-	font-weight: bold;
+    font-weight: bold;
     text-decoration: none;
    color:#bbe1ea;
 }
 #perfil  li{
-	list-style: none;
-	margin-left: -50px;
+    list-style: none;
+    margin-left: -50px;
 }
 .btnmio{
     margin-top: 10px;
@@ -533,24 +545,24 @@ inputsada {/* ponte id rta no uses input no mas me afectas jajaj--*/
     margin-bottom: 10px;
 }
 select{
-	height: 40px;
-	width: 50px;
+    height: 40px;
+    width: 50px;
 }
 textarea{
-	width: 80%;
-	height: 100px;
-	margin-bottom: 10px;
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
 }
 #btnEnviar{
-	height: 50px;
-	width: 200px;
-	margin-bottom: 10px;
-	background-color: #2341aa;
-	color: white;
-	font-weight: bold;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #2341aa;
+    color: white;
+    font-weight: bold;
 }
 h3{
-	margin-top: 10px;
+    margin-top: 10px;
 }
 /*Comprar--------------------------------------------------------------------------------------------------------------------------------------------*/
 * {
