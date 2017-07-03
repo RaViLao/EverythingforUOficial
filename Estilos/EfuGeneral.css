@@ -820,5 +820,8 @@ hr{
     font-weight: bold
 }
 .com > span{
-    text-transform: uppercase
+    text-transform: uppercase;
+}
+.username{
+text-transform: uppercase;
 }
