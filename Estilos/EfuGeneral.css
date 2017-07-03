@@ -362,6 +362,15 @@ strong {
     margin-left: 15px;
     border: 2px solid red;
 }
+#Bfiltro {
+    margin-left: 15px;
+    height: 200px;
+    border: 2px solid red;
+}
+#checks {
+    height: 20px;
+    margin-left:0px;
+}
 /* Descripción del producto-------------------------------------------------------------------------------------------------------------------------------------*/
 #barras {
     width: 80%;
@@ -508,10 +517,10 @@ strong {
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
 
-input{
-	height: 40px;
-	width: 250px;
-	margin-bottom: 10px;
+inputsada {/* ponte id rta no uses input no mas me afectas jajaj--*/
+    height: 40px;
+    width: 250px;
+    margin-bottom: 10px;
 }
 select{
 	height: 40px;
