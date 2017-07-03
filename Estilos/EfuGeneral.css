@@ -838,9 +838,6 @@ hr{
 .com > span, h6{
     font-weight: bold
 }
-.com > span{
+.com > span, .username, #ses{
     text-transform: uppercase;
-}
-.username{
-text-transform: uppercase;
 }
