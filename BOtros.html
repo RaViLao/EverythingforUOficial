@@ -1,91 +1,261 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-
-	<meta charset="utf-8" />
-	<title>Efu</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
-	<link href="Estilos/bootstrap.min.css" rel="stylesheet"/>
-	<link href="Estilos/EfuMaestra.css" rel="stylesheet"/>
-	<link rel="stylesheet"  href="Estilos/IconosContactos.css">
-	<script src="JavaScript/jquery-3.2.1.min.js"></script>
-	<script src="JavaScript/bootstrap.min.js"></script>
-	<script src="JavaScript/libreria.js"></script>
-	<script src="JavaScript/Eventos.js"></script>
-
-
+    <meta charset="utf-8" />
+    <title>Ingenieria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link href="Estilos/bootstrap.min.css" rel="stylesheet" />
+    <link href="Estilos/EfuMaestra.css" rel="stylesheet" />
+    <link href="Estilos/EfuGeneral.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Estilos/IconosContactos.css">
+    <script src="JavaScript/jquery-3.2.1.min.js"></script>
+    <script src="JavaScript/bootstrap.min.js"></script>
+    <script src="JavaScript/libreria.js"></script>
+    <script src="JavaScript/Categorias.js"></script>
 </head>
 <body>
-<header>
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-		<div id="conte" class="container">
-			<div class="navbar-header">
-			<a href="#"><img id="logito" src="Image/logoEfu.png"/> </a>			
 
-				<form action="" class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input ;" id="ya" class="form-control" type="text" placeholder="Buscar"></input>
-					</div>
-					<button type="submit" class="btn btn-primary">
-					<span class="glyphicon glyphicon-search"></span></button>
-					<a class="cent" href="CrearCuenta.html">
-						<img class="logo" src="Image/signed.png"/>Registrate</a>
-					<a class="cent" href="#"> 
-						<img class="logo" src="Image/login.png"/> Inicia Sesión</a>
-				</form>				
-			</div>	
-		</div>
-	</nav>
-</header>
-<div id="cuerpo">
-<div class="container navegador">	
-		<div class="navbar-header">
-				<button id="bi" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
-					<span class=sr-only> Desplegar / Ocultar Menu</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="#" class="navbar-brand"> Buscar por: </a>
-			</div>
-			
-		<div class="collapse navbar-collapse" id="navegacion-fm">
-				<ul class="nav navbar-nav" id="categorias">
-					<li><a href="BIngenieria.html" >Ingenieria</a></li>
-					<li><a href="BEmpresariales.html" > Empresariales</a></li>
-					<li><a href="BDerecho.html" > Derecho</a></li>
-					<li><a href="BHumanidades.html" > Humanidades</a></li>
-					<li><a href="BSalud.html" > Salud</a></li>
-					<li><a href="BGastronomia.html" > Gastronomía</a></li>
-					<li><a href="BEducacion.html" > Educación</a></li>
-					<li><a href="Bsociales.html" > Sociales</a></li>
-					<li><a href="BArquitectura.html" > Arquitectura</a></li>
-					<li><a href="BOtros.html" > Otros</a></li>
-					
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div id="conte" class="container">
+                <div class="navbar-header">
+                    <a href="#"><img id="logito" src="Image/logoEfu.png" /> </a>
+                    <form action="" class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input ;" id="ya" class="form-control" type="text" placeholder="Buscar"></input>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        <a class="cent" href="CrearCuenta.html">
+                            <img class="logo" src="Image/signed.png" />Registrate
+                        </a>
+                        <a class="cent" href="#">
+                            <img class="logo" src="Image/login.png" /> Inicia Sesión
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="cuerpo">
+        <div class="container navegador">
+            <div class="navbar-header">
+                <button id="bi" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+                    <span class=sr-only> Desplegar / Ocultar Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"> Buscar por: </a>
+            </div>
 
-				</ul>
-				
-			</div>
+            <div class="collapse navbar-collapse" id="navegacion-fm">
+                <ul class="nav navbar-nav" id="categorias">
+                    <li><a href="BIngenieria.html">Ingenieria</a></li>
+                    <li><a href="BEmpresariales.html"> Empresariales</a></li>
+                    <li><a href="BDerecho.html"> Derecho</a></li>
+                    <li><a href="BHumanidades.html"> Humanidades</a></li>
+                    <li><a href="BSalud.html"> Salud</a></li>
+                    <li><a href="BGastronomia.html"> Gastronomía</a></li>
+                    <li><a href="BEducacion.html"> Educación</a></li>
+                    <li><a href="Bsociales.html"> Sociales</a></li>
+                    <li><a href="BArquitectura.html"> Arquitectura</a></li>
+                    <li><a href="BOtros.html"> Otros</a></li>
 
 
-</div>
+                </ul>
+
+            </div>
 
 
-<div class="contenedor container">
-	Aquí va a ir el contenido Principal
-</div>
-</div>
+        </div>
+        <div id="nop" class="contenedor row">
 
-<footer id="piefin" class="container-fluid">Footer</footer>
+            <section id="compraB" class="col-md-3">
 
 
-	
+                <section id="cajaC" class="compra">
+                    <div>
+                        <h3 style="background-color: tomato;padding:10px;color:white;"> Everything for U Shop</h3>
+                        <div class="table-responsive" id="tshop">
+                            <table class="table table-bordered">
+                                <tr class="info">
+                                    <th>Producto</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                                <tr>
+                                    <td>hola</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="Comprar.html"><button id="shop" class="btn btn-primary"> <span class="glyphicon glyphicon-shopping-cart">Comprar</span></button></a>
+                    </div>
+                    <div id="comunity">
+                        <h4 style="background-color: blue;padding:10px;color:white;">Busca lo que desees en tu comunidad</h4>
+                        <a id="comuni" href="Comunidad.html" class="btn btn-primary"> Ir a Comunidad</a>
+                    </div>
+
+                </section>
+                <div class="caja" id="Bfiltro">
+                    <h3 id="tituloB">Filtrar</h3>
+                    <div>
+
+                        <div id="direccion" class="panel-collapse collapse in" aria-expanded="true">
+
+                            <h4 id="Ftitulo">Universidad</h4>
+                            <form id="precioB">
+                                <input id="c1" type="checkbox" name="gender" value="male" checked>
+                                <label for="c1">Usil</label><br>
+                                <input id="c1" type="checkbox" name="gender" value="female">
+                                <label for="c1">ULima</label><br>
+                                <input id="c1" type="checkbox" name="gender" value="more">
+                                <label for="c1">USMP</label><br>
+                                <input id="c1" type="checkbox" name="gender" value="other">
+                                <label for="c1">UPC</label>
+                            </form>
+
+                            <h4 id="Ftitulo">Rango de Precio</h4>
+                            <form id="precioB">
+                                <input id="c2" type="radio" name="gender" value="male">
+                                <label for="c2">S/. 0 - 50</label><br>
+                                <input id="c2" type="radio" name="gender" value="female">
+                                <label for="c2">S/. 50 - 100</label><br>
+                                <input id="c2" type="radio" name="gender" value="more">
+                                <label for="c2">S/. 100 - 500</label><br>
+                                <input id="c2" type="radio" name="gender" value="other">
+                                <label for="c2">S/. 500 +</label>
+                            </form>
+                        </div>
 
 
+                    </div>
+                </div>
+            </section><!--Caja de Compra -->
+
+
+            <main id="main1" class="col-md-9 row">
+                <div><a href="#"><img class="publicidad1" id="publicidad" src="http://www.gamingexpress.co.uk/product_images/uploaded_images/15966-ps4-preorder-horizontal-web-banner-aw.png" /></a>
+				<h3 id="Ctitulo">OTROS</h3>
+				</div>
+                <div class="row">
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer id="piefin" class="container-fluid">Footer</footer>
 </body>
 </html>

@@ -14,8 +14,10 @@
     <script src="JavaScript/jquery-3.2.1.min.js"></script>
     <script src="JavaScript/bootstrap.min.js"></script>
     <script src="JavaScript/libreria.js"></script>
+    <script src="JavaScript/Categorias.js"></script>
 </head>
 <body>
+
     <header>
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div id="conte" class="container">
@@ -40,8 +42,8 @@
         </nav>
     </header>
     <div id="cuerpo">
- <div class="container navegador">  
-        <div class="navbar-header">
+        <div class="container navegador">
+            <div class="navbar-header">
                 <button id="bi" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
                     <span class=sr-only> Desplegar / Ocultar Menu</span>
                     <span class="icon-bar"></span>
@@ -50,30 +52,30 @@
                 </button>
                 <a href="#" class="navbar-brand"> Buscar por: </a>
             </div>
-            
-        <div class="collapse navbar-collapse" id="navegacion-fm">
+
+            <div class="collapse navbar-collapse" id="navegacion-fm">
                 <ul class="nav navbar-nav" id="categorias">
-                    <li><a href="BIngenieria.html" >Ingenieria</a></li>
-                    <li><a href="BEmpresariales.html" > Empresariales</a></li>
-                    <li><a href="BDerecho.html" > Derecho</a></li>
-                    <li><a href="BHumanidades.html" > Humanidades</a></li>
-                    <li><a href="BSalud.html" > Salud</a></li>
-                    <li><a href="BGastronomia.html" > Gastronomía</a></li>
-                    <li><a href="BEducacion.html" > Educación</a></li>
-                    <li><a href="Bsociales.html" > Sociales</a></li>
-                    <li><a href="BArquitectura.html" > Arquitectura</a></li>
-                    <li><a href="BOtros.html" > Otros</a></li>
-                    
+                    <li><a href="BIngenieria.html">Ingenieria</a></li>
+                    <li><a href="BEmpresariales.html"> Empresariales</a></li>
+                    <li><a href="BDerecho.html"> Derecho</a></li>
+                    <li><a href="BHumanidades.html"> Humanidades</a></li>
+                    <li><a href="BSalud.html"> Salud</a></li>
+                    <li><a href="BGastronomia.html"> Gastronomía</a></li>
+                    <li><a href="BEducacion.html"> Educación</a></li>
+                    <li><a href="Bsociales.html"> Sociales</a></li>
+                    <li><a href="BArquitectura.html"> Arquitectura</a></li>
+                    <li><a href="BOtros.html"> Otros</a></li>
+
 
                 </ul>
-                
+
             </div>
 
 
-</div>
-        <div class="contenedor row">
+        </div>
+        <div id="nop" class="contenedor row">
 
-            <section class="col-md-3">
+            <section id="compraB" class="col-md-3">
 
 
                 <section id="cajaC" class="compra">
@@ -125,55 +127,32 @@
                     <h3 id="tituloB">Filtrar</h3>
                     <div>
 
-
-
-
-
                         <div id="direccion" class="panel-collapse collapse in" aria-expanded="true">
-                            <h4>Rango de Precio</h4>
+
+                            <h4 id="Ftitulo">Universidad</h4>
                             <form id="precioB">
-                                <input type="radio" name="gender" value="male" checked>
-                                <label>S/. 0 - 50</label><br>
-                                <input type="radio" name="gender" value="female">
-                                <label>S/. 50 - 100</label><br>
-                                <input type="radio" name="gender" value="more">
-                                <label>S/. 100 - 500</label><br>
-                                <input type="radio" name="gender" value="other">
-                                <label>S/. 500 +</label>
+                                <input id="c1" type="checkbox" name="gender" value="male" checked>
+                                <label for="c1">Usil</label><br>
+                                <input id="c1" type="checkbox" name="gender" value="female">
+                                <label for="c1">ULima</label><br>
+                                <input id="c1" type="checkbox" name="gender" value="more">
+                                <label for="c1">USMP</label><br>
+                                <input id="c1" type="checkbox" name="gender" value="other">
+                                <label for="c1">UPC</label>
                             </form>
 
-
-                            <h4>Universidad</h4>
-                            
-                                <input type="checkbox" name="gender" value="male" checked>
-                                <label>Usil</label><br>
-                                <input type="checkbox" name="gender" value="female">
-                                <label>ULima</label><br>
-                                <input type="checkbox" name="gender" value="more">
-                                <label>USMP</label><br>
-                                <input type="checkbox" name="gender" value="other">
-                                <label>UPC</label>
-                           
-
-                            
+                            <h4 id="Ftitulo">Rango de Precio</h4>
+                            <form id="precioB">
+                                <input id="c2" type="radio" name="gender" value="male">
+                                <label for="c2">S/. 0 - 50</label><br>
+                                <input id="c2" type="radio" name="gender" value="female">
+                                <label for="c2">S/. 50 - 100</label><br>
+                                <input id="c2" type="radio" name="gender" value="more">
+                                <label for="c2">S/. 100 - 500</label><br>
+                                <input id="c2" type="radio" name="gender" value="other">
+                                <label for="c2">S/. 500 +</label>
+                            </form>
                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -182,71 +161,94 @@
 
 
             <main id="main1" class="col-md-9 row">
-                <div><a href="#"><img id="publicidad1" src="http://www.gamingexpress.co.uk/product_images/uploaded_images/15966-ps4-preorder-horizontal-web-banner-aw.png" /></a></div>
+                <div><a href="#"><img class="publicidad1" id="publicidad" src="http://www.gamingexpress.co.uk/product_images/uploaded_images/15966-ps4-preorder-horizontal-web-banner-aw.png" /></a>
+                    <h3 id="Ctitulo">INGENIERIA</h3>
+                </div>
                 <div class="row">
-                    <div class="col-xs-3 contenido">
+                    <div id="CproductoCa" class="col-xs-3 contenido">
                         <a href="DescripcionProducto.html">
                             <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
                             <h4>Calculadora Grafica HP50G</h4>
-                            <label>S/. 100.00</label>
+                            <label>S/. 400.00</label>
                         </a>
                     </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
+                    </div>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
 
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
-
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
-                    </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
-                    </div>
-                    <div class="col-xs-3 contenido">
-                        <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
-                        <h4>Calculadora Grafica HP50G</h4>
-                        <label>S/. 100.00</label>
+                    <div id="CproductoCa" class="col-xs-3 contenido">
+                        <a href="DescripcionProducto.html">
+                            <img class="protos" src="http://ried.cl/erwin/img/articles/hp50g_review/Imagen-028.jpg" />
+                            <h4>Calculadora Grafica HP50G</h4>
+                            <label>S/. 400.00</label>
+                        </a>
                     </div>
 
 

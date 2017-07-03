@@ -76,7 +76,8 @@ input#ya{
 
 #cuerpo{
 	background-image: url(../Image/Bienvenida.jpg);
-	
+	width:100%;
+    height:100%;
 }
 
 #bienve >img{
