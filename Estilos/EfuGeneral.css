@@ -405,9 +405,10 @@ strong {
     margin-top: 10px;
 }
 .btn{
-	background: #00509d;
+	background-color: #00509d;
 	color: white;
 	font-weight: 500;
+	margin-bottom: 10px;
 }
 #contenidoGeneral{
 	background-color: #fff9bc;
@@ -844,6 +845,6 @@ hr{
 .com > span, h6{
     font-weight: bold
 }
-.com > span{
-    text-transform: uppercase
+.com > span, .username, #ses{
+    text-transform: uppercase;
 }
