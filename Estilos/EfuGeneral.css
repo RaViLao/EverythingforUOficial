@@ -398,9 +398,10 @@ strong {
     margin-top: 10px;
 }
 .btn{
-	background: #00509d;
+	background-color: #00509d;
 	color: white;
 	font-weight: 500;
+	margin-bottom: 10px;
 }
 #contenidoGeneral{
 	background-color: #fff9bc;
@@ -500,13 +501,31 @@ strong {
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
 
-#icoEnviar{
-	height:40px;
+input{
+	height: 40px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+select{
+	height: 40px;
+	width: 50px;
+}
+textarea{
+	width: 80%;
+	height: 100px;
+	margin-bottom: 10px;
 }
 #btnEnviar{
-	float:right;
+	height: 50px;
+	width: 200px;
+	margin-bottom: 10px;
+	background-color: #2341aa;
+	color: white;
+	font-weight: bold;
 }
-
+h3{
+	margin-top: 10px;
+}
 /*Comprar--------------------------------------------------------------------------------------------------------------------------------------------*/
 * {
 
