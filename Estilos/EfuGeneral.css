@@ -217,7 +217,7 @@ strong {
 /*Recuperar Contrasenia -------------------------------------------------------------------------------------------------------------------------------*/
 #local {
     width: 394px;
-    height: 324px;
+    height: 355px;
     margin: auto;
     margin-top: 28px;
     margin-bottom: 10px;
@@ -339,11 +339,14 @@ strong {
 /* Categorias     -------------------------------------------------------------------------------------------------------------------------------------*/
 .contenido {
     text-align: center;
+    border: 2px solid red;
 }
 
 #main1 {
     width: 70%;
     margin: auto;
+    border: 2px solid red;
+    border: 2px solid red;
 }
 
 .protos {
@@ -354,6 +357,10 @@ strong {
     max-height: 200px;
     max-width: 965px;
     margin-left:-15px;
+}
+#cajaC {
+    margin-left: 15px;
+    border: 2px solid red;
 }
 /* Descripción del producto-------------------------------------------------------------------------------------------------------------------------------------*/
 #barras {
