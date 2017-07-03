@@ -364,13 +364,22 @@ strong {
 }
 #Bfiltro {
     margin-left: 15px;
-    height: 200px;
+    height: 600px;
     border: 2px solid red;
+    padding:12px;
+    color:#fff;
 }
 #checks {
     height: 20px;
     margin-left:0px;
 }
+#tituloB{
+    text-align:center;
+}
+#precioB {
+
+}
+
 /* Descripción del producto-------------------------------------------------------------------------------------------------------------------------------------*/
 #barras {
     width: 80%;
