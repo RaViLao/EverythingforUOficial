@@ -15,6 +15,7 @@
     <script src="JavaScript/bootstrap.min.js"></script>
     <script src="JavaScript/libreria.js"></script>
     <script src="JavaScript/Eventos.js"></script>
+    <script src="JavaScript/ActualizarDatos.js"></script>
 
 </head>
 <body>
@@ -50,38 +51,37 @@
 				<div class=" col-xs-12 col-md-2 col-sm-12"></div>
 
 					<div id="sForm" class="row container-fluid col-xs-12 col-md-8 col-sm-12" >
-						<div class="col-xs-12 col-md-5 col-sm-12" id="perfil">
-							<img src="http://comm.psu.edu/member_photos/FloresWEB.jpg"/>
-							<ul>
-								<li><a class="btn btn-success" href="">Actualizar foto</a></li>
-							</ul>
-							
-							<span  ><h2 > Juan Flores </h2> </span>
+						<div class="col-xs-12 col-md-5 col-sm-12 form" id="perfil">
+							<img src="http://s04.s3c.es/imag/_v0/439x439/3/d/8/100x100_perfil-medinilla-firma.jpg"/>
+							<br>
+							<div style="width:100px; margin-left: 60px;" class="bg-success">Subir foto:</div>
+							<input  style="margin-left: 60px; width: 180px;" type="file" name="img">
+							<span  ><h2 id="changeNombrej"> Cecilia Conde </h2> </span>
 						</div>
 						<div class=" col-xs-12 col-md-1 col-sm-12"></div>
 						<div class="col-xs-12 col-md-6 col-sm-12 " id="sdatos">
 												
 							<h4>UNIVERSIDAD:</h4>
-							<h3>San Ignacio de Loyola</h3>
+							<h3 id="unij">USIL</h3>
 							<h4>FECHA DE NACIMIENTO:</h4>
-							<h3>17-Junio-1998</h3>
+							<h3 id="fechanacj">17-Junio-1998</h3>
 							<h4>SEXO:</h4>
-							<h3>M</h3>
+							<h3 id="sexoj">F</h3>
 							<h4>PAIS:</h4>
-							<h3>Perú</h3>
-							<h4>CORREO:</h4>
-							<h3>jfsmile052@gmail.com</h3>
+							<h3 id="paisj">Perú</h3>
+							<h4 >CORREO:</h4>
+							<h3 id="correoj">Ceci052@gmail.com</h3>
 							<h4>TELEFONO:</h4>
-							<h3>964052271</h3>
+							<h3 id="telj">964052271</h3>
 
 						</div>
 						
 						
 						<div id="btnsperfil" class="row">
 								<div class="col-md-6 col-md-offset-3">
-									<button class="btn btn.lg btn-block btn-primary btnmio">Actualizar Información</button>
+									<a href="ActualizarInformacion.html"><input type="button" value="Actualizar Información"  class="btn btn.lg btn-block btn-primary btnmio" /></a>
 									
-									<button class="btn btn.lg btn-block btn-danger btnmio">Cambiar Contraseña</button>
+									<a href="CambiarContraseña.html"><input type="button" src="" value="Cambiar Contraseña" class="btn btn.lg btn-block btn-danger btnmio"></a>
 								</div>
 					    </div>
 					</div>
