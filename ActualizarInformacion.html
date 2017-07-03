@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	<title>Efu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+	<link href="Estilos/bootstrap.min.css" rel="stylesheet"/>
+	<link href="Estilos/EfuMaestra.css" rel="stylesheet"/>
+	<link href="Estilos/EfuGeneral.css" rel="stylesheet"/>
+	<link rel="stylesheet"  href="Estilos/IconosContactos.css">
+	<script src="JavaScript/jquery-3.2.1.min.js"></script>
+	<script src="JavaScript/bootstrap.min.js"></script>
+	<script src="JavaScript/libreria.js"></script>
+	<script src="JavaScript/Eventos.js"></script>
+	<script src="JavaScript/ActualizarDatos.js"></script>
+
+
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div id="conte" class="container">
+			<div class="navbar-header">
+			<a href="#"><img id="logito" src="Image/logoEfu.png"/> </a>			
+
+				<form action="" class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input ;" id="ya" class="form-control" type="text" placeholder="Buscar"></input>
+					</div>
+					<button type="submit" class="btn btn-primary">
+					<span class="glyphicon glyphicon-search"></span></button>
+					<a class="cent" href="CrearCuenta.html">
+						<img class="logo" src="Image/signed.png"/>Registrate</a>
+					<a class="cent" href="#"> 
+						<img class="logo" src="Image/login.png"/> Inicia Sesión</a>
+				</form>				
+			</div>	
+		</div>
+	</nav>
+</header>
+
+	<div id="jactualizar" class="contenedor container-fluid  acj">
+
+		<div class="row" id="datosact">
+
+			<div class="col-md-2 col-xs-12"></div>
+			<div class="col-md-5 col-xs-12" id="actu">
+				<h3 style="color: #89bb88; font-weight: bold; text-align: center; text-decoration: underline;">Actualiza tus datos</h3>
+				<br>
+				<form role="form" action=" " method="post" class="datos-entrada">
+	                    <div>
+	                        <div class=" col-md-6 col-sm-6 form-group">
+	                        	<p>Nombres</p>
+	                            <input id="jnom" type="text" value="Cecilia" class="form-control">
+	                        </div>
+	                        <div class="col-sm-6 form-group">
+	                        	<p>Apellidos</p>
+	                            <input id="jape" type="text" value="Conde" class="form-control">
+	                        </div>
+	                    </div>
+	                    <div class="col-sm-6 col-md-6 form-group">
+                        	<p>Fecha de Nacimiento</p>
+                            <select id="jdia">
+								<option >Dia</option>
+								<option name="dia" value="01">01</option>
+								<option name="dia" value="02">02</option>
+								<option name="dia" value="03">03</option>
+								<option name="dia" value="04">04</option>
+								<option name="dia" value="05">05</option>
+								<option name="dia" value="06">06</option>
+								<option name="dia" value="07">07</option>
+								<option name="dia" value="08">08</option>
+								<option name="dia" value="09">09</option>
+								<option name="dia" value="10">10</option>
+								<option name="dia" value="11">11</option>
+								<option name="dia" value="12">12</option>
+								<option name="dia" value="13">13</option>
+								<option name="dia" value="14">14</option>
+								<option name="dia" value="15">15</option>
+								<option name="dia" value="16">16</option>
+								<option name="dia" value="17">17</option>						
+								<option name="dia" value="18">18</option>
+								<option name="dia" value="19">19</option>
+								<option name="dia" value="20">20</option>
+								<option name="dia" value="21">21</option>
+								<option name="dia" value="22">22</option>
+								<option name="dia" value="23">23</option>
+								<option name="dia" value="24">24</option>
+								<option name="dia" value="25">25</option>
+								<option name="dia" value="26">26</option>
+								<option name="dia" value="27">27</option>
+								<option name="dia" value="28">28</option>
+								<option name="dia" value="29">29</option>						
+								<option name="dia" value="30">30</option>
+								<option name="dia" value="31">31</option>
+							</select>
+							<select id="jmes">
+								<option >Mes</option>
+								<option name="mes" value="Enero">Enero</option>						
+								<option name="mes" value="Febrero">Febrero</option>
+								<option name="mes" value="Marzo">Marzo</option>						
+								<option name="mes"  value="Abril">Abril</option>
+								<option name="mes" value="Mayo">Mayo</option>
+								<option name="mes" value="Junio">Junio</option>
+								<option name="mes" value="Julio">Julio</option>
+								<option name="mes" value="Agosto">Agosto</option>						
+								<option name="mes" value="Septiembre">Septiembre</option>
+								<option name="mes" value="Octubre">Octubre</option>
+								<option name="mes" value="Noviembre">Noviembre</option>
+								<option name="mes" value="Diciembre">Diciembre</option>
+							</select>
+							<select id="janio">
+								<option>Año</option>
+								<option value="2017" name="anio">2017</option>
+								<option name="anio" value="2016">2016</option>
+								<option name="anio" value="2015">2015</option>
+								<option name="anio" value="2014">2014</option>
+								<option name="anio" value="2013">2013</option>
+								<option name="anio" value="2012">2012</option>
+								<option name="anio" value="2011">2011</option>
+								<option name="anio" value="2010">2010</option>
+								<option name="anio" value="2009">2009</option>
+								<option name="anio" value="2008">2008</option>
+								<option name="anio" value="2007">2007</option>
+								<option name="anio" value="2006">2006</option>
+								<option name="anio" value="2005">2005</option>
+								<option name="anio" value="2004">2004</option>
+								<option name="anio" value="2003">2003</option>
+								<option name="anio" value="2002">2002</option>
+								<option name="anio" value="2001">2001</option>
+								<option name="anio" value="2000">2000</option>
+								<option name="anio" value="1999">1999</option>						
+								<option name="anio" value="1998">1998</option>
+								<option name="anio" value="1997">1997</option>
+							</select>
+                        </div>
+                        <div class="col-sm-6  col-md-6 form-group opcion-sexo">
+                        	<p>Sexo</p>
+							<input id="jsexm" type="radio" name="opcion" value="M"> <span>M</span>
+							<input id="jsexf" type="radio" name="opcion" value="F"> <span>F</span>
+                        </div>
+
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-sm-6  col-md-6 form-group">
+	                        <p>Universidad</p>
+	                        <select style="width:100px;" id="juni">
+								<option>Universidad</option>
+								<option name="univ" value="USIL">USIL</option>
+								<option name="univ" VALUE="UNMSM">UNMSM</option>
+								<option name="univ" value="Universidad Agraria La Molina">Universidad Agraria La Molina</option>
+								<option name="univ" value="UNI">UNI</option>
+								<option name="univ" value="ULima">ULima</option>
+								<option name="univ" value="Universidad Cientifica del Sur">Universidad Cientifica del Sur</option>
+							</select>
+	                        </div>
+	                    <div class=" col-md-6 col-sm-6 form-group">
+	                        <p>País</p>
+	                         <select style="width:60px;" id="jpais">
+								<option >País</option>
+								<option value="Canada">Canada</option>
+								<option value="El Salvador">El Salvador</option>
+								<option value="Estados Unidos">Estados Unidos</option>
+								<option value="Mexico">Mexico</option>
+								<option value="Perú">Perú</option>
+								<option value="Turkia">Turkia</option>
+								<option value="Venzuela">Venzuela</option>
+							</select>
+	                    </div>
+                        <div class="col-sm-6 col-md-6 form-group">
+                        	<p>Correo</p>
+                            <input type="text" id="jcor" value="Ceci052@gmail.com" class="form-control">
+                        </div>
+                        <div class=" col-md-6 col-sm-6 form-group">
+                        	<p>Teléfono</p>
+                            <input type="text" id="jtel" value="964052271" class="form-control">
+                        </div>
+                       	<div class="row"></div>
+                       		<div calss="col-xs-3 col-md-3"></div>
+                       		<div style="text-align: center;" col-xs-3 col-md-3>
+                       			<a href="PerfilUsuario.html" >	<input type="button" value="Guardar" onclick="ActualizarDatos( );" class="btn btn-primary "></a>
+                       			<a href="PerfilUsuario.html"><input type="button" value="Cancelar" class="btn btn-danger "></a>
+                       		</div>
+                       		<div col-xs-3 col-md-3></div>
+                      </form>
+			</div>
+			<div style="text-align: center; margin-top: 30px; background-color: #CFE2E8;  min-height: 400px;" class="col-md-3 col-xs-12">
+				
+				<h3 >Publica tus libros o materiales,</h3>
+				<h3>podrás venderlos y/o alquilarlos</h3>
+				<a href="Publicar.html"><img style="width: 200px;" src="http://1.bp.blogspot.com/-YWTrQHntrTw/VFkl_fuYLoI/AAAAAAAAAKo/2tb3zKjpo1w/s1600/Sin-t%25C3%25ADtulo-1.gif"></a>
+				<br>
+			</div>
+			<div class="col-md-2 col-xs-12"></div>
+		</div>
+	</div>
+</div>
+
+<footer id="piefin" class="container-fluid">Footer</footer>
+
+
+	
+
+
+</body>
+</html>

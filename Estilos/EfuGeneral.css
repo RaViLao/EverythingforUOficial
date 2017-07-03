@@ -459,11 +459,12 @@ strong {
 	padding-top: 20px;
 	
 	text-align: center;
+    
 }
 
 
 #perfil img {
-    width: 180px;
+    width: 200px;
 }
 
 #sdatos{
@@ -518,7 +519,7 @@ strong {
 	margin-left: -50px;
 }
 .btnmio{
-    margin-top: 40px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -797,6 +798,76 @@ div.col-sm-9 div {
     margin-top: 15px;
 }
 
+<<<<<<< HEAD
+/*-----------------------------------------------------------*/
+
+/*----------------------------Actualizar Informacion-------------------------------*/
+
+#jactualizar{
+    background-image: url(../Image/Bienvenida.jpg);
+    min-height: 450px;
+}
+
+#datosact{
+    margin-top: 30px;
+
+}
+
+#actu{
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    padding-top: 20px;
+    
+}
+
+#actu p{
+    color:#aabb23;
+    font-weight: bold;
+}
+.acj{
+    background-image: url(../Image/Bienvenida.jpg);
+}
+.contenf{
+background-color: #CFE2E8;
+}
+/*--------------------PUBLICAR------------*/
+
+
+#jpublicacion{
+        background: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    padding-top: 20px;
+
+
+}
+
+#jpubli{
+    margin: 20px auto;
+}
+
+#titupubli{
+    color:#ff4433;
+    font-size: 38px;
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.jlabel{
+    color:#aabb23;
+}
+
+#publij:hover{
+    background-color: #ffaa66;
+    color: #fff;
+}
+
+#pj:hover{
+    width: 300px;
+}
+=======
 /*------------Comuniddad------------------------------------*/
 
 
@@ -866,3 +937,4 @@ hr{
 .com > span, .username, #ses{
     text-transform: uppercase;
 }
+>>>>>>> origin/master
