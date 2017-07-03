@@ -1,13 +1,16 @@
 /*------------------------------------Página Principal-------------------------------------------------------------------------------------*/
-.container-fluid {
+#prodPr {
     min-height: 50px;
     background-color: #eaecef;
+    
 }
 
 .productos {
     background-color: #b8eeef;
     padding: 10px 20px;
 }
+
+
 
 .prod img {
     width: 100%;
@@ -17,9 +20,12 @@
     color: black;
 }
 
+
+
 #prodPr div {
     margin-top: 10px;
     margin-bottom: 15px;
+
 }
 
 #publicidad {
@@ -211,7 +217,7 @@ strong {
 /*Recuperar Contrasenia -------------------------------------------------------------------------------------------------------------------------------*/
 #local {
     width: 394px;
-    height: 324px;
+    height: 355px;
     margin: auto;
     margin-top: 28px;
     margin-bottom: 10px;
@@ -333,11 +339,14 @@ strong {
 /* Categorias     -------------------------------------------------------------------------------------------------------------------------------------*/
 .contenido {
     text-align: center;
+    border: 2px solid red;
 }
 
 #main1 {
     width: 70%;
     margin: auto;
+    border: 2px solid red;
+    border: 2px solid red;
 }
 
 .protos {
@@ -348,6 +357,19 @@ strong {
     max-height: 200px;
     max-width: 965px;
     margin-left:-15px;
+}
+#cajaC {
+    margin-left: 15px;
+    border: 2px solid red;
+}
+#Bfiltro {
+    margin-left: 15px;
+    height: 200px;
+    border: 2px solid red;
+}
+#checks {
+    height: 20px;
+    margin-left:0px;
 }
 /* Descripción del producto-------------------------------------------------------------------------------------------------------------------------------------*/
 #barras {
@@ -388,9 +410,19 @@ strong {
     text-align: center;
 }
 
-    .main > section {
-        margin-top: 10px;
-    }
+.main > section {
+    margin-top: 10px;
+}
+.btn{
+	background-color: #00509d;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+#contenidoGeneral{
+	background-color: #fff9bc;
+	border-radius: 20px; 
+}
 
 /*PerfilUsuario---------------------------------------------------------------------------------------------------------------*/
 #sPerfil {
@@ -486,13 +518,31 @@ strong {
 
 /* Contáctanos-------------------------------------------------------------------------------------------------------------------------------------*/
 
-#icoEnviar{
-	height:40px;
+inputsada {/* ponte id rta no uses input no mas me afectas jajaj--*/
+    height: 40px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+select{
+	height: 40px;
+	width: 50px;
+}
+textarea{
+	width: 80%;
+	height: 100px;
+	margin-bottom: 10px;
 }
 #btnEnviar{
-	float:right;
+	height: 50px;
+	width: 200px;
+	margin-bottom: 10px;
+	background-color: #2341aa;
+	color: white;
+	font-weight: bold;
 }
-
+h3{
+	margin-top: 10px;
+}
 /*Comprar--------------------------------------------------------------------------------------------------------------------------------------------*/
 * {
 
@@ -664,7 +714,7 @@ strong {
     color: #fff;
 }
 
-.contenedor {
+#cont {
     background: #fcfbf7;
 }
 
@@ -739,6 +789,7 @@ div.col-sm-9 div {
     margin-top: 15px;
 }
 
+<<<<<<< HEAD
 /*-----------------------------------------------------------*/
 
 /*----------------------------Actualizar Informacion-------------------------------*/
@@ -750,19 +801,26 @@ div.col-sm-9 div {
 
 #datosact{
     margin-top: 30px;
+
 }
 
 #actu{
     background: rgba(0, 0, 0, 0.5);
     min-height: 400px;
     padding-top: 20px;
+    
 }
 
 #actu p{
     color:#aabb23;
     font-weight: bold;
 }
-
+.acj{
+    background-image: url(../Image/Bienvenida.jpg);
+}
+.contenf{
+background-color: #CFE2E8;
+}
 /*--------------------PUBLICAR------------*/
 
 
@@ -800,3 +858,74 @@ div.col-sm-9 div {
 #pj:hover{
     width: 300px;
 }
+=======
+/*------------Comuniddad------------------------------------*/
+
+
+#comunidad{
+    margin-top:10px;
+    text-align: center;
+    background: #edd6b8;
+    color:white; 
+    
+}
+#comunidad div{
+    background-color:#030f23;
+    margin:20px;
+    padding:30px;
+    border-radius: 48%;
+    
+}
+
+#comunidad img{
+    display:block;
+    width:85%;
+    margin:auto;
+    border-radius: 7px;
+}
+
+#comnts{
+    margin-top:20px ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #f7e7d2;
+
+}
+
+#comnts img{
+    width:30px;
+}
+
+#comnts h6{
+    font-size: 18px;
+}
+
+#cuerpo2{
+    background-image: url('https://bricomanias.com/wp-content/2015/11/pared-de-hormigon.jpg');
+    
+}
+
+hr{
+    border: 1px solid gray;
+}
+.com{
+    padding:0 50px;
+}
+.Publi{
+    padding-left:30px;
+
+}
+
+.Publi > section >img {
+    width:100% !important;
+}
+.click{
+    display:none;
+}
+.com > span, h6{
+    font-weight: bold
+}
+.com > span, .username, #ses{
+    text-transform: uppercase;
+}
+>>>>>>> origin/master
