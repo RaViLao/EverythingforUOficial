@@ -76,7 +76,7 @@ $(document).ready(function(){
     });
 
     	$(".comprar").click(function(){
-    	alert('hola');   
+    	  
     	var usuario = $("#form-username").val();
    		var contra = $("#form-password").val();
    		var name = new Array ('RaViLao', 'jorge', 'july', 'angelfox');
@@ -84,12 +84,11 @@ $(document).ready(function(){
 
    		var n= 0;
    		var index=0;
-   		alert(name[index] +  name.length + usuario);	
-
+   		
    		while(n==0 & index < name.length-1){
 
    			if(usuario==name[index]){
-   				alert(name[index] + 'encontró');
+   			
    				if(contra==pass[index]){
    					n=1;
    				}else{
@@ -112,7 +111,6 @@ $(document).ready(function(){
    			$("#reg").css("display", "none");
    			$("#ses").css("margin-left", "100px");
 
-   			alert('si');
    		}else{
    			$("#form-username").val("");
    			$("#form-password").val("");
@@ -120,12 +118,16 @@ $(document).ready(function(){
    			$("#form-username").attr("placeholder")=="error";
    			$("#form-username").attr("color")=="red";
    			$("#comprar-pro").css("display:none");
-   			alert('no');
-
+   			
 
    		}
 
 	});
+
+
+      $("#comuni").click(function(){
+
+      });
 
    	
     
