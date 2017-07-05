@@ -1062,3 +1062,6 @@ hr {
 
 /*Inidicar forma de pago*/
 
+.pagos *{
+    border:1px solid red;
+}
