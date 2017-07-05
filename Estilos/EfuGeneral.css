@@ -364,6 +364,7 @@ strong {
 .protos {
     max-height: 200px;
     max-width: 130px;
+    display:inline-block;
     
 }
 #BcajaIma {
@@ -372,6 +373,11 @@ strong {
     vertical-align:middle;
 
 }
+
+.bajar{
+    margin-top: 50px;
+}
+
 #Bsd {
 vertical-align:middle;
 }
