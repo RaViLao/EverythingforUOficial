@@ -113,7 +113,7 @@ $(document).ready(function(){
    			$("#comprar-pro").css("display:none");
    			$(".click").css("display", "block");
    			$(".username").text(usuario);
-   			$("#ses").text(usuario);
+   			$("#z").text(usuario);
    			$("#reg").css("display", "none");
    			$("#ses").css("margin-left", "100px");
 

@@ -1012,8 +1012,7 @@ hr {
     text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-=======
+
 /*Inidicar forma de pago*/
 
 #datoP input{
@@ -1039,4 +1038,8 @@ hr {
 #prom{
     padding:100px 0;
 }
->>>>>>> origin/master
+/*ser Premium*/
+.prem:hover{
+    border:2px solid black;
+}
+
