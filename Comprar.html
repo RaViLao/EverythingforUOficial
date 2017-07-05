@@ -248,7 +248,7 @@
 
 
 						<div  class="modal fade" id="pagar" role="dialog">
-							<div style="width:60%;" class="modal-dialog">
+							<div style="width:68%;" class="modal-dialog">
 								<div  class="modal-content ">
 									<div style="background-color: #033482; color:white" class="modal-header">
 										<button style="color:white; background-color: black; padding:5px;" type="button" class="close" data-dismiss="modal">&times;</button>
@@ -261,24 +261,55 @@
 									  		<section class="col-xs-12 col-md-9">
 									  			<div class="container-fluid">
 									  				 
-                    <p style="text-align: center; font-size: 1.2em;">Asocie una tarjeta de crédito o débito para completar compra </p>
+                    <p style="text-align: center; font-size: 1.2em;background-color: #d6d8db; padding:5px;"><img src="Image/alerta.png"/> Asocie una tarjeta de crédito o débito para completar compra </p>
                     <div class="caja-ingreso">
                       <form role="form" action="" method="post" class="datos-entrada">
 	                    <div class="container-fluid">
+	                    <div id="datoP" class="row">
+	                    <section  class="col-xs-12 col-md-6">
 	                    	<input type="text" placeholder="Nombres" class="form-control">
+	                    	</section>
+	                    	<section class="col-xs-12 col-md-6">
+	                    	<input type="text" placeholder="Apellidos" class="form-control">
+	                    	</section>
+	                    	</div>
+	                    	<br/>
+	                    	<section id="logPago" style="background-color: #d6d8db; border-radius: 7px;">
+	                    		<img src="Image/visa.png"/> <img src="Image/master.png"/> <img src="Image/american.png"/> <img src="Image/paypal.png"/>
+	                    	 </section>
+	                    	 <br/>
+	                    	 <input type="text" placeholder="Numero de Tarjeta" class="form-control">
+	                    	 <br/>
+	                    	 <div class="row">
+	                    	 <section class="col-xs-6">
+	                    	 <span>Vencimiento</span>
+	                    	 <input style="width:150px;" type="text" placeholder="MM/AA" class="form-control"></section>
+	                    	 <section class="col-xs-6">
+	                    	 <span id="info">CSC*</span><span style="display:none" id="adi">Código detrás de la tarjeta</span>
+	                    	 <input style="width:150px;" type="text" placeholder="3 DÍGITOS" class="form-control"></section>
+	                    	 <div>
+	                    	 <span style="display:inline-block; margin-top:10px;"> Direccion de Facturación</span>
+	                    	 <input type="text" placeholder="Ej: Av La Molina 745 - La Molina" class="form-control"><br/>
 	                    </div>
                       </form>
-                       <a href="Index.html"><button type="submit" class="boton">Registrarme</button></a>
+                       <a href="index.html"><button type="submit" class="boton"><img src="Image/ok.png"/> Confirmar Compra</button></a>
 	                </div>
 
 	            
 									  			</div>
 									  		</section>
 
-									  		<section class="col-xs-12 col-md-3">
-									  			<div class="container-fluid">
-									  				hola 2
+									  		<section id="prom" class="col-xs-12 col-md-3">
+									  			<div  class="container-fluid">
+									  			<section id="log2">
+									  				<img src="Image/logoEfu.png"/></section>
 									  			</div>
+									  			<div class="container-fluid">
+									  			<button id="ServAd" style="margin:auto;" class="btn btn-primary"><img id="ok" style="display:none;" src="Image/ok.png"/> Servicio Adicional</button></div>
+									  			<div style="text-align: center" id="text" class="container-fluid">
+									  				Si no tienes tiempo, nosotros conseguimos y te entregamos el producto... Click Arriba
+									  			</div>
+									  			
 									  		</section>
 									  </div>
 									</div>

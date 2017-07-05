@@ -1062,6 +1062,26 @@ hr {
 
 /*Inidicar forma de pago*/
 
-.pagos *{
-    border:1px solid red;
+#datoP input{
+    width:100%;
+}
+
+
+#logPago img{
+    display:inline-block;
+    height: 40px;
+    margin:3px;
+}
+
+#log2{
+    background-color: black;
+    padding:10px;
+    border-radius: 6px;
+    margin:auto;
+}
+#log2 img{
+    width:100%;
+}
+#prom{
+    padding:100px 0;
 }

@@ -1,5 +1,11 @@
 $(document).ready(function(){
-		
+
+		$("#ServAd").click(function(){
+        
+        $("#ok").css("display", "inline-block");
+      });
+
+
 	$("#BienveP").ready(function(){
 		var Images = new Array(
 			'image/universitarios.png',
@@ -125,9 +131,7 @@ $(document).ready(function(){
 	});
 
 
-      $("#comuni").click(function(){
-
-      });
+      
 
    	
     
