@@ -548,26 +548,19 @@ vertical-align:middle;
     
 }
 
-#perfil {
-    background: rgba(0, 0, 0, 0.5);
-    min-height: 400px;
-    padding-top: 20px;
-    text-align: center;
-}
 
-    #perfil img {
-        width: 200px;
-    
-
-    min-height: 400px;
+#perfil img {
+    width: 200px;
+    min-height: 200px;
     color:#dfdfdf;
     background-color: #6789BA;
-    padding-left: 30px;
+    border-color: #000;
 }
 #sdatos {
     min-height: 400px;
     color: #dfdfdf;
-    background-color: #6789BA;
+    /*background-color: #6789BA;*/
+    background: rgba(10, 100, 100, 0.5);
     padding-left: 30px;
 }
 
