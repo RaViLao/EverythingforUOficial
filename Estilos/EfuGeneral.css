@@ -406,7 +406,7 @@ strong {
 }
 
 #nop {
-    background: url(../Image/Bienvenida.jpg) no-repeat center center fixed;
+    background: url(../Image/Bienvenida.jpg) no-repeat center center;
     background-size: cover;
 }
 
