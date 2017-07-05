@@ -366,6 +366,7 @@ strong {
 .protos {
     max-height: 200px;
     max-width: 130px;
+    display:inline-block;
     
 }
 #BcajaIma {
@@ -374,6 +375,11 @@ strong {
     vertical-align:middle;
 
 }
+
+.bajar{
+    margin-top: 50px;
+}
+
 #Bsd {
 vertical-align:middle;
 }
@@ -1004,3 +1010,31 @@ hr {
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
+=======
+/*Inidicar forma de pago*/
+
+#datoP input{
+    width:100%;
+}
+
+
+#logPago img{
+    display:inline-block;
+    height: 40px;
+    margin:3px;
+}
+
+#log2{
+    background-color: black;
+    padding:10px;
+    border-radius: 6px;
+    margin:auto;
+}
+#log2 img{
+    width:100%;
+}
+#prom{
+    padding:100px 0;
+}
+>>>>>>> origin/master
