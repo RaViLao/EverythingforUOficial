@@ -3,10 +3,10 @@ $(document).ready(function () {
     
 
     var publicidad = new Array(
-        'image/publi5.jpg',
-        'image/publi6.png',
-        'image/publi7.jpg',
-        'image/publi8.jpg'
+        'Image/publi5.jpg',
+        'Image/publi6.png',
+        'Image/publi7.jpg',
+        'Image/publi8.jpg'
     );
 
     cargarPubli();

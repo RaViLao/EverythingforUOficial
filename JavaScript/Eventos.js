@@ -8,9 +8,9 @@ $(document).ready(function(){
 
 	$("#BienveP").ready(function(){
 		var Images = new Array(
-			'image/universitarios.png',
-			'image/universitarios2.png',
-			'image/universitarios3.png',
+			'Image/universitarios.png',
+			'Image/universitarios2.png',
+			'Image/universitarios3.png',
 			'http://tusimagenesde.com/wp-content/uploads/2016/07/universitarios-1.jpg');
 		var Aux=[];
 			cargar();
@@ -48,10 +48,10 @@ $(document).ready(function(){
 	});
 
 	var publicidad = new Array (
-		'image/publi1.png', 
-		'image/publi2.jpg',
-		'image/publi3.jpg',
-		'image/publi4.gif'
+		'Image/publi1.png', 
+		'Image/publi2.jpg',
+		'Image/publi3.jpg',
+		'Image/publi4.gif'
 		);
 
 		cargarPubli();
@@ -113,7 +113,7 @@ $(document).ready(function(){
    			$("#comprar-pro").css("display:none");
    			$(".click").css("display", "block");
    			$(".username").text(usuario);
-   			$("#ses").text(usuario);
+   			$("#z").text(usuario);
    			$("#reg").css("display", "none");
    			$("#ses").css("margin-left", "100px");
 
