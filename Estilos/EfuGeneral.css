@@ -393,11 +393,13 @@ vertical-align:middle;
 
 #cajaC {
     margin-left: 15px;
+    border-radius:10px;
+    margin-left:-15px;
 }
 
 #Bfiltro {
-    margin-left: 15px;
-    height: 600px;
+    margin-left: -15px;
+    height: 630px;
     padding: 12px;
     margin-top: 10px;
 }
