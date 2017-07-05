@@ -363,6 +363,7 @@ strong {
 .protos {
     max-height: 200px;
     max-width: 130px;
+    display:inline-block;
     
 }
 #BcajaIma {
