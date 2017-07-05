@@ -315,7 +315,6 @@ strong {
     margin-top: 10px;
     width: 394px;
     margin: auto;
-    color
 }
 
 #li1 {
@@ -363,12 +362,24 @@ strong {
 
 .protos {
     max-height: 200px;
-    max-width: 200px;
+    max-width: 130px;
+    
 }
+#BcajaIma {
+    height: 200px;
+    margin: 0 auto;
+    vertical-align:middle;
 
+}
+#Bsd {
+vertical-align:middle;
+}
 .publicidad1 {
     max-height: 200px;
     max-width: 965px;
+}
+.contenido{
+    vertical-align:middle;
 }
 
 #cajaC {
@@ -411,6 +422,7 @@ strong {
 }
 
 #CproductoCa {
+    height: 287px;
 }
 
 #Ctitulo {
@@ -418,6 +430,9 @@ strong {
     background-color: tomato;
     color: white;
     padding: 10px;
+}
+#CproductoCa>a>h4{
+
 }
 /* Descripción del producto-------------------------------------------------------------------------------------------------------------------------------------*/
 #barras {
