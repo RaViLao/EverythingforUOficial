@@ -1,19 +1,44 @@
+
+
+.busc {
+	margin-top: 20px;
+}
+
+.busc1 {
+	margin-top: 10px;
+}
+
+
+.usuario {
+	width: 60%;
+	margin: auto;
+	margin-top: 23px;
+}
+
+.cabe {
+	background: #242623;
+}
+
+
 .navbar{
 	margin-bottom: 0;
 	text-align: center;
 }
 .navegador{
 	background-color: #4357ad;
-	
 }
-#categorias > li a, .navegador a {
-	color:white;
+
+.categorias {
+margin: auto;
+}
+.categorias > li a, .navegador a {
+	color: white;
 	border-bottom: 1px solid black;
 
 }
-#categorias > li a:hover{
+.categorias > li a:hover{
 	background-color: #f2f2f2;
-	color:black;
+	color: black;
 }
 #bi{
 	background-color: black;
@@ -31,11 +56,13 @@
 }
 
 #logito{	
-	width:150px;
+	width:20%;
+	margin-top: 10px;
+	margin-bottom: 8px;
 }
 
 input#ya{
-	width:610px;
+	width: 480px;
 }
 
 .logo{
@@ -69,15 +96,20 @@ input#ya{
 }
 #piefin{
 	background-color: #242623;
-	color:white;
-	padding:20px;
-	text-align:center;
+	color: #fff;
+}
+#piefin a {
+	color: #fff;
+}
+
+.contactos-foter {
+	padding: 10px;
 }
 
 #cuerpo{
-	background-image: url(../Image/Bienvenida.jpg);
-	width:100%;
-    height:100%;
+	background-image: url(http://avservicetechnik.ch/DEMO_1/one-page/img/portfolio/37.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 #bienve >img{
